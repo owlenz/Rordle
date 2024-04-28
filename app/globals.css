@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Bombardier";
+  src: url("/fonts/BOMBARD_.otf") format("opentype");
+}
+
+
+@font-face {
+  font-family: "RiskOfRain";
+  src: url("/fonts/risk-of-rain.ttf") format("truetype");
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -30,4 +41,9 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+.transition-ring {
+    transition-property: ring-color, ring-offset-color, ring-offset-width, ring-width;
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
