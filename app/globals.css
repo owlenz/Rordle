@@ -46,3 +46,27 @@ body {
     transition-duration: 0.2s;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.buttonX {
+  cursor: pointer;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  transition-duration: 60ms;
+  border: 2px solid white;
+  outline: 2px solid transparent;
+  outline-offset: 10px;
+  transition-property: outline-offset,border;
+  transition-duration: 100ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.buttonX:hover {
+  border-color: gray;
+  border: 2px solid gray;
+  outline: 2px solid white;
+  outline-offset:2px
+}
+
+

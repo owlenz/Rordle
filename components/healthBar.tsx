@@ -1,8 +1,14 @@
-const HealthBar = () => {
+const HealthBar = ({ value }: { value: number }) => {
+	const percentage = value / 20;
 	return (
-		<div className="w-96 h-8 bg-black bg-opacity-55 p-0 flex items-center justify-normal relative">
-			<div className=" w-[50%] mx-1 h-[90%] bg-[#7C0102] flex justify-center items-center absolute"></div>
-			<span className="z-10 w-full text-center">1000/2000</span>
+		<div className="w-[30rem] h-8 bg-gradient-to-r from-[0.0001%] from-transparent via-black to-transparent to-[99.9999%] bg-opacity-55 flex items-center relative">
+			<div
+				className={` h-[77%] bg-[#7C0102] mx-7`}
+				style={{ width: `${10}%` }}
+			></div>
+			<span className="z-1 w-full text-center absolute font-bold">
+				1000/2000
+			</span>
 		</div>
 	);
 };
