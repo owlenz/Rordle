@@ -29,7 +29,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  height: 100vh;
+  height: 100%;
   background-image: url('/rorBG.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -58,7 +58,7 @@ body {
   outline: 2px solid transparent;
   outline-offset: 10px;
   transition-property: outline-offset,border;
-  transition-duration: 100ms;
+  transition-duration: 75ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -68,5 +68,4 @@ body {
   outline: 2px solid white;
   outline-offset:2px
 }
-
 
