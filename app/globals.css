@@ -27,13 +27,25 @@
   }
 }
 
+::-webkit-scrollbar {
+  width:14px;
+}
+
+::-webkit-scrollbar-track {
+  background:#0E1013;
+}
+
+::-webkit-scrollbar-thumb {
+  background:#0E1013;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C5B34D; /* Color of the thumb on hover */
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   height: 100%;
-  background-image: url('/rorBG.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  backdrop-filter:blur(5px);
 }
 
 @layer utilities {
@@ -69,3 +81,25 @@ body {
   outline-offset:2px
 }
 
+.green{
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 0.5px green;
+      -webkit-font-smoothing: antialiased;
+      background-image: url('/BgUncommon.webp')
+}
+
+.yellow {
+    -webkit-text-fill-color: white;
+  -webkit-text-stroke: 0.5px yellow;
+      -webkit-font-smoothing: antialiased;
+      background-image: url('/BgBoss.webp')
+
+}
+
+.red {
+    -webkit-text-fill-color: white;
+  -webkit-text-stroke: 0.5px red;
+      -webkit-font-smoothing: antialiased;
+      background-image: url('/BgLegendary.webp')
+
+}

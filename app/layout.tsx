@@ -18,6 +18,10 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={inter.className + " flex flex-col items-center "}>
+				<img
+					className="fixed top-0 left-0 w-full h-full object-cover bg-center z-[-1] blur-sm scale-110"
+					src="/rorBG.jpg"
+				/>
 				<div className="bg"></div>
 				<Navbar />
 				{children}

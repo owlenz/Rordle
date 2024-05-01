@@ -2,19 +2,10 @@
 import HealthBar from "@/components/healthBar";
 import Button from "@/components/button";
 import data from "@/ror.json";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
-import Edge from "@/components/edge";
-
-interface Item {
-	name: string;
-	desc: string;
-	stack: string;
-	imageLink: string;
-	release: string;
-	rarity: string;
-	oneTimeUse: boolean;
-}
+import { Item } from "./types";
+import AnswersBox from "./answers";
 
 const Home = () => {
 	const [search, setSearch] = useState("");
@@ -22,44 +13,65 @@ const Home = () => {
 	const [focus, setFocus] = useState(false);
 	const [hp, setHp] = useState(2000);
 	const [answers, setAnswers] = useState<Array<Item>>([]);
-	const [realAnswer, setRealAnswer] = useState(
-		data[Math.floor(Math.random() * data.length)],
-	);
-	console.log(realAnswer);
+	const [realAnswer, setRealAnswer] = useState<Item>();
+	const [win, setWin] = useState(false);
+	const inputRef = useRef(null);
 
 	useEffect(() => {
-		const ls = localStorage.getItem("stats");
+		const ls = localStorage.getItem("userStats");
+		const item = localStorage.getItem("todayItem");
 
 		if (ls) {
 			const Storage = JSON.parse(ls);
+			setAnswers(Storage.answers);
 			setHp(Storage.hp);
 		}
-	});
+		if (item) {
+			const Storage = JSON.parse(item);
+			setRealAnswer(Storage);
+		} else {
+			const rAnswer = data[Math.floor(Math.random() * data.length)];
+			setRealAnswer(rAnswer);
+			localStorage.setItem("todayItem", JSON.stringify(rAnswer));
+		}
+	}, []);
 
 	useEffect(() => {
 		const result = data.filter((entry) => {
 			return entry.name.toLowerCase().includes(search.toLowerCase());
 		});
+
 		const finalResult = result.filter((entry) => {
-			return !answers.includes(entry);
+			return !answers.some(
+				(obj) => JSON.stringify(entry) === JSON.stringify(obj),
+			);
 		});
+
 		setResults(finalResult.slice(0, 10));
-		// console.log({ result, results });
 	}, [search]);
 
 	const submitAnswer = (name: string) => {
 		setFocus(false);
+		inputRef.current?.blur();
 		setSearch("");
-		const aloo = answers.concat(results.filter((xdd) => xdd.name == name));
-		setAnswers(aloo);
+		const newAnswers = answers.concat(
+			results.filter((xdd) => xdd.name == name),
+		);
+		setAnswers(newAnswers);
 		setResults(results.filter((xdd) => xdd.name != name));
+		let newHP = hp;
 
-		if (aloo[aloo.length - 1] == realAnswer) {
-			console.log("Winner");
+		if (newAnswers[newAnswers.length - 1] == realAnswer) {
+			setWin(true);
+
+			// win login
+		} else {
+			newHP -= 250;
 		}
+		const stats = { hp: newHP, answers: newAnswers };
 
-		localStorage.setItem("userAnswers", JSON.stringify(aloo));
-		console.log(aloo);
+		localStorage.setItem("userStats", JSON.stringify(stats));
+		console.log(newAnswers);
 	};
 
 	return (
@@ -71,6 +83,7 @@ const Home = () => {
 				<div className="w-full flex flex-col items-center relative">
 					<input
 						tabIndex={0}
+						ref={inputRef}
 						placeholder="xdd"
 						value={search}
 						onFocus={() => setFocus(true)}
@@ -108,57 +121,7 @@ const Home = () => {
 					) : null}
 				</div>
 			</div>
-			{answers.length ? (
-				<div className="bg-black bg-opacity-70 p-2 text-white  box w-full flex flex-col gap-3 relative mt-10">
-					<div className="flex gap-4 font-bold text-[20px]">
-						<span className="w-24 text-center">Item</span>
-						<span className="w-24 text-center">Rarity</span>
-						<span className="w-24 text-center">Modifiers</span>
-						<span className="w-24 text-center">Stacking</span>
-						<span className="w-24 text-center">Release</span>
-					</div>
-					{answers.map((entry) => {
-						return (
-							<div
-								key={entry.name}
-								className="flex gap-4 text-[18px] text-center"
-							>
-								<div className="w-24 h-24 bg-[url('/BgCommon.webp')] bg-no-repeat bg-cover relative flex items-center justify-center">
-									<Image
-										alt={entry.name}
-										height={70}
-										width={70}
-										src={entry.imageLink}
-									/>
-									<Edge />
-								</div>
-								<div className="w-24 h-24 bg-no-repeat bg-cover relative flex items-center justify-center">
-									<span className="z-10"> {entry.rarity}</span>
-									<Edge />
-								</div>
-								<div className="w-24 h-24  bg-no-repeat bg-cover relative flex items-center justify-center">
-									<span className="h-full w-full z-10 overflow-hidden text-ellipsis leading-4 flex items-center justify-center ">
-										{entry.modifiers}
-									</span>
-									<Edge />
-								</div>
-								<div className="w-24 h-24  bg-no-repeat bg-cover relative flex items-center justify-center">
-									<span className="z-10 "> {entry.stack}</span>
-									<Edge />
-								</div>
-								<div className="w-24 h-24  bg-no-repeat bg-cover relative flex items-center justify-center">
-									<span className="z-10 "> {entry.release}</span>
-									<Edge />
-								</div>
-								<div className="w-24 h-24  bg-no-repeat bg-cover relative flex items-center justify-center">
-									<span className="z-10 "> {entry.oneTimeUse}</span>
-								</div>
-							</div>
-						);
-					})}
-				</div>
-			) : null}
-
+			<AnswersBox answers={answers} realAnswer={realAnswer} />
 			<div className="flex gap-10 mt-10">
 				<Button type={"button"}>Back</Button>
 				<Button
