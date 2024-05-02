@@ -6,15 +6,18 @@ import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { Item } from "./types";
 import AnswersBox from "./answers";
+import { compareObjects } from "@/utils/xdd";
+import deathMessages from "@/deathMessages.json";
+type gameStateT = "won" | "lost" | "playing" | undefined;
 
 const Home = () => {
 	const [search, setSearch] = useState("");
 	const [results, setResults] = useState<Array<Item>>([]);
 	const [focus, setFocus] = useState(false);
-	const [hp, setHp] = useState(2000);
+	const [hp, setHp] = useState<number>(100);
 	const [answers, setAnswers] = useState<Array<Item>>([]);
 	const [realAnswer, setRealAnswer] = useState<Item>();
-	const [win, setWin] = useState(false);
+	const [gameState, setGameState] = useState<gameStateT>();
 	const inputRef = useRef(null);
 
 	useEffect(() => {
@@ -25,6 +28,9 @@ const Home = () => {
 			const Storage = JSON.parse(ls);
 			setAnswers(Storage.answers);
 			setHp(Storage.hp);
+			setGameState(Storage.gameState);
+		} else {
+			setGameState("playing");
 		}
 		if (item) {
 			const Storage = JSON.parse(item);
@@ -60,15 +66,24 @@ const Home = () => {
 		setAnswers(newAnswers);
 		setResults(results.filter((xdd) => xdd.name != name));
 		let newHP = hp;
+		let newGameState: gameStateT = gameState;
 
-		if (newAnswers[newAnswers.length - 1] == realAnswer) {
-			setWin(true);
-
+		if (compareObjects(newAnswers[newAnswers.length - 1], realAnswer)) {
+			newGameState = "won";
+			setGameState(newGameState);
 			// win login
 		} else {
-			newHP -= 250;
+			newHP -= 20;
 		}
-		const stats = { hp: newHP, answers: newAnswers };
+
+		if (newHP === 0) {
+			newGameState = "lost";
+			setGameState(newGameState);
+		}
+
+		setHp(newHP);
+
+		const stats = { hp: newHP, answers: newAnswers, gameState: newGameState };
 
 		localStorage.setItem("userStats", JSON.stringify(stats));
 		console.log(newAnswers);
@@ -76,62 +91,74 @@ const Home = () => {
 
 	return (
 		<main className="flex flex-col w-[800px] items-center p-16 font-bombard">
-			<div className="bg-black bg-opacity-70 p-6 text-white z-30 box w-full flex flex-col items-center gap-4 relative">
-				<h2 className="text-4xl text-center">Guess Today's Item</h2>
-				<HealthBar value={hp} />
-
-				<div className="w-full flex flex-col items-center relative">
-					<input
-						tabIndex={0}
-						ref={inputRef}
-						placeholder="xdd"
-						value={search}
-						onFocus={() => setFocus(true)}
-						onBlur={() => setFocus(false)}
-						onChange={(e) => {
-							setSearch(e.target.value);
-						}}
-						className="w-[60%] cursor-default border-t-2 border-l-2 border-[#5C5D5D] focus:bg-[#CDD191] hover:bg-[#CDD191] outline-offset-0 outline-2 outline-[#B4B4B4] px-2 h-8 text-lg text-black bg-[#8B8B8C] appearance-none outline-none placeholder:text-[#6A6A6B] placeholder:italic"
-					/>
-					{search && focus ? (
-						<div className="absolute top-[110%] w-[57%] z-30 bg-black overflow-y-auto max-h-56">
-							{results.map((entry) => {
-								return (
-									<button
-										tabIndex={0}
-										key={entry.name}
-										role="button"
-										onMouseDown={(e) => {
-											e.preventDefault();
-											submitAnswer(entry.name);
-										}}
-										className="w-full flex items-center gap-4 px-2 py-1"
-									>
-										<Image
-											alt="xdd"
-											src={entry.imageLink}
-											width={50}
-											height={50}
-										/>
-										{entry.name}
-									</button>
-								);
-							})}
-						</div>
-					) : null}
+			{gameState === "playing" ? (
+				<div className="bg-black bg-opacity-70 p-6 text-white z-30 box w-full flex flex-col items-center gap-4 relative">
+					<h2 className="text-4xl text-center">Guess Today's Item</h2>
+					<HealthBar value={hp} />
+					<div className="w-full flex flex-col items-center relative">
+						<input
+							tabIndex={0}
+							ref={inputRef}
+							placeholder="xdd"
+							value={search}
+							onFocus={() => setFocus(true)}
+							onBlur={() => setFocus(false)}
+							onChange={(e) => {
+								setSearch(e.target.value);
+							}}
+							className="w-[60%] cursor-default border-t-2 border-l-2 border-[#5C5D5D] focus:bg-[#CDD191] hover:bg-[#CDD191] outline-offset-0 outline-2 outline-[#B4B4B4] px-2 h-8 text-lg text-black bg-[#8B8B8C] appearance-none outline-none placeholder:text-[#6A6A6B] placeholder:italic"
+						/>
+						{search && focus ? (
+							<div className="absolute top-[110%] w-[57%] z-30 bg-black overflow-y-auto max-h-56">
+								{results.map((entry) => {
+									return (
+										<button
+											tabIndex={0}
+											key={entry.name}
+											role="button"
+											onMouseDown={(e) => {
+												e.preventDefault();
+												submitAnswer(entry.name);
+											}}
+											className="w-full flex items-center gap-4 px-2 py-1"
+										>
+											<Image
+												alt="xdd"
+												src={entry.imageLink}
+												width={50}
+												height={50}
+											/>
+											{entry.name}
+										</button>
+									);
+								})}
+							</div>
+						) : null}
+					</div>
 				</div>
-			</div>
+			) : gameState === "won" ? (
+				<div className="bg-black bg-opacity-70 p-6 text-white z-30 box w-full flex flex-col items-center gap-4 relative"></div>
+			) : gameState === "lost" ? (
+				<div className="bg-black bg-opacity-70 p-6 text-white z-30 box w-full flex flex-col items-center gap-4 relative">
+					<h2 className="text-2xl font-bold text-[#DC3939]">
+						💀{deathMessages[Math.floor(Math.random() * deathMessages.length)]}
+						💀
+					</h2>
+				</div>
+			) : null}
 			<AnswersBox answers={answers} realAnswer={realAnswer} />
-			<div className="flex gap-10 mt-10">
-				<Button type={"button"}>Back</Button>
-				<Button
-					className="bg-[#9A00C7] hover:brightness-150 hover:border-white hover:bg-opacity-100"
-					type={"button"}
-					style={{ border: "2px solid #B600EB" }}
-				>
-					Back
-				</Button>
-			</div>
+			{true ? null : (
+				<div className="flex gap-10 mt-10">
+					<Button type={"button"}>Back</Button>
+					<Button
+						className="bg-[#9A00C7] hover:brightness-150 hover:border-white hover:bg-opacity-100"
+						type={"button"}
+						style={{ border: "2px solid #B600EB" }}
+					>
+						Back
+					</Button>
+				</div>
+			)}
 		</main>
 	);
 };
