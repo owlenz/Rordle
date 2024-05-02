@@ -1,4 +1,4 @@
-import Edge from "@/components/edge";
+import Edge from "./components/edge";
 import Image from "next/image";
 import React from "react";
 import { Item } from "./types";

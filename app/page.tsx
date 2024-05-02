@@ -1,6 +1,6 @@
 "use client";
-import HealthBar from "@/components/healthBar";
-import Button from "@/components/button";
+import HealthBar from "./components/healthBar";
+import Button from "./components/button";
 import data from "@/ror.json";
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
