@@ -125,7 +125,7 @@ const Home = () => {
 										>
 											<Image
 												alt="xdd"
-												src={entry.imageLink + "?_=" + Date.now()}
+												src={entry.imageLink}
 												width={50}
 												height={50}
 											/>
