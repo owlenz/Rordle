@@ -5,8 +5,8 @@ const nextConfig = {
 			{
 				protocol: "https",
 				hostname: "static.wikia.nocookie.net",
-				port: "",
-				pathname: "/riskofrain2_gamepedia_en/images/**/**/**/**/**/**/**",
+				// port: "",
+				// pathname: "/riskofrain2_gamepedia_en/images/**/**/**/**/**/**/**",
 			},
 		],
 	},
