@@ -1,13 +1,11 @@
-import { strict } from "assert";
 import { ReactNode } from "react";
 
 interface props {
-	type: any, className: string, children: ReactNode, onClick: Function | string, style: any
+	type: any, className?: string, children: ReactNode, style?: any
 }
 
 const Button = ({
 	children,
-	onClick = "",
 	style = {},
 	type,
 	className = "",
