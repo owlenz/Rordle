@@ -1,4 +1,5 @@
 "use client";
+
 import HealthBar from "./components/healthBar";
 import Button from "./components/button";
 import data from "@/ror.json";
@@ -9,6 +10,7 @@ import AnswersBox from "./answers";
 import { compareObjects } from "@/utils/xdd";
 import deathMessages from "@/deathMessages.json";
 type gameStateT = "won" | "lost" | "playing" | undefined;
+import { IoSkullSharp } from "react-icons/io5";
 
 const Home = () => {
 	const [search, setSearch] = useState("");
@@ -22,7 +24,6 @@ const Home = () => {
 
 	useEffect(() => {
 		const ls = localStorage.getItem("userStats");
-		const item = localStorage.getItem("todayItem");
 
 		if (ls) {
 			const Storage = JSON.parse(ls);
@@ -32,14 +33,13 @@ const Home = () => {
 		} else {
 			setGameState("playing");
 		}
-		if (item) {
-			const Storage = JSON.parse(item);
-			setRealAnswer(Storage);
-		} else {
-			const rAnswer = data[Math.floor(Math.random() * data.length)];
-			setRealAnswer(rAnswer);
-			localStorage.setItem("todayItem", JSON.stringify(rAnswer));
+		const getTodayItem = async () => {
+			const item = await fetch("/api").then(xdd => xdd.json())
+			console.log(item)
+			setRealAnswer(item);
 		}
+		getTodayItem()
+
 	}, []);
 
 	useEffect(() => {
@@ -73,7 +73,7 @@ const Home = () => {
 			setGameState(newGameState);
 			// win login
 		} else {
-			newHP -= 20;
+			newHP -= 15;
 		}
 
 		if (newHP === 0) {
@@ -89,10 +89,10 @@ const Home = () => {
 		console.log(newAnswers);
 	};
 
-	return (
+	return realAnswer ? (
 		<main className="flex flex-col w-[800px] items-center p-16 font-bombard">
 			{gameState === "playing" ? (
-				<div className="bg-black bg-opacity-70 p-6 text-white z-30 box w-full flex flex-col items-center gap-4 relative">
+				<div className="bg-black bg-opacity-50 p-6 text-white z-30 box w-full flex flex-col items-center gap-4 relative">
 					<h2 className="text-4xl text-center">Guess Today's Item</h2>
 					<HealthBar value={hp} />
 					<div className="w-full flex flex-col items-center relative">
@@ -137,13 +137,17 @@ const Home = () => {
 					</div>
 				</div>
 			) : gameState === "won" ? (
-				<div className="bg-black bg-opacity-70 p-6 text-white z-30 box w-full flex flex-col items-center gap-4 relative"></div>
-			) : gameState === "lost" ? (
 				<div className="bg-black bg-opacity-70 p-6 text-white z-30 box w-full flex flex-col items-center gap-4 relative">
-					<h2 className="text-2xl font-bold text-[#DC3939]">
-						💀{deathMessages[Math.floor(Math.random() * deathMessages.length)]}
-						💀
+					<h2 className="text-3xl">You guessed it right</h2>
+					<div className="flex flex-col items-center gap-2"><h2 className="text-2xl">Today's Item is {realAnswer.name}</h2><Image alt={realAnswer.name} width={60} height={60} src={realAnswer.imageLink} /></div>
+				</div>
+			) : gameState === "lost" ? (
+				<div className="bg-black bg-opacity-70 text-center p-6 text-white z-30 box w-full flex flex-col items-center gap-4 relative">
+					<h2 className="text-2xl font-bold text-[#DC3939] flex gap-1 items-center">
+						<IoSkullSharp />{deathMessages[Math.floor(Math.random() * deathMessages.length)]}
+						<IoSkullSharp />
 					</h2>
+					<div className="flex flex-col items-center gap-2"><h2 className="text-2xl">Today's Item was {realAnswer.name}</h2><Image alt={realAnswer.name} width={60} height={60} src={realAnswer.imageLink} /></div>
 				</div>
 			) : null}
 			<AnswersBox answers={answers} realAnswer={realAnswer} />
@@ -160,7 +164,7 @@ const Home = () => {
 				</div>
 			)}
 		</main>
-	);
+	) : null
 };
 
 export default Home;

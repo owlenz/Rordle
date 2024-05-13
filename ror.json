@@ -7,7 +7,7 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": ", Damage"
+		"modifiers": "Damage"
 	},
 	{
 		"name": "Backup Magazine",
@@ -17,7 +17,7 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": "Unique"
+		"modifiers": "Skills"
 	},
 	{
 		"name": "Bison Steak",
@@ -27,7 +27,7 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": ", HP"
+		"modifiers": "heal, HP"
 	},
 	{
 		"name": "Bundle of Fireworks",
@@ -37,7 +37,7 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": ", Damage"
+		"modifiers": "Damage"
 	},
 	{
 		"name": "Bustling Fungus",
@@ -47,7 +47,7 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": ", AOE, HP"
+		"modifiers": "AOE, heal, HP"
 	},
 	{
 		"name": "Cautious Slug",
@@ -57,7 +57,7 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": ", HP"
+		"modifiers": "heal, HP"
 	},
 	{
 		"name": "Crowbar",
@@ -67,7 +67,7 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": ", Damage, HP"
+		"modifiers": "Damage, heal, HP"
 	},
 	{
 		"name": "Delicate Watch",
@@ -77,7 +77,7 @@
 		"release": "Survivors of the Void",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": ", Damage, HP"
+		"modifiers": "Damage, heal, HP"
 	},
 	{
 		"name": "Energy Drink",
@@ -87,7 +87,7 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": ", Movement"
+		"modifiers": "Sprint"
 	},
 	{
 		"name": "Focus Crystal",
@@ -97,7 +97,7 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": ", Damage, AOE"
+		"modifiers": "Damage, AOE"
 	},
 	{
 		"name": "Gasoline",
@@ -107,7 +107,7 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": ", Damage, AOE"
+		"modifiers": "Damageignite, AOE, on-kill effect"
 	},
 	{
 		"name": "Item Scrap, White",
@@ -117,7 +117,7 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": true,
-		"modifiers": ", Expendable"
+		"modifiers": "Expendable"
 	},
 	{
 		"name": "Lens-Maker's Glasses",
@@ -127,7 +127,7 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": ", Damage"
+		"modifiers": "Damage, Crit"
 	},
 	{
 		"name": "Medkit",
@@ -137,7 +137,7 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": ", HP"
+		"modifiers": "heal, HP"
 	},
 	{
 		"name": "Mocha",
@@ -147,7 +147,7 @@
 		"release": "Survivors of the Void",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": ", Attack Speed, Movement"
+		"modifiers": "Attack Speed, Movement"
 	},
 	{
 		"name": "Monster Tooth",
@@ -157,7 +157,7 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": ", HP"
+		"modifiers": "heal, HP, Spawn, on-kill effect"
 	},
 	{
 		"name": "Oddly-shaped Opal",
@@ -167,7 +167,7 @@
 		"release": "Survivors of the Void",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": ", Defence"
+		"modifiers": "Armor"
 	},
 	{
 		"name": "Paul's Goat Hoof",
@@ -177,7 +177,7 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": ", Movement"
+		"modifiers": "Movement"
 	},
 	{
 		"name": "Personal Shield Generator",
@@ -187,7 +187,7 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": ", HP, Defence"
+		"modifiers": "heal, HP, Shield"
 	},
 	{
 		"name": "Power Elixir",
@@ -197,7 +197,7 @@
 		"release": "Survivors of the Void",
 		"rarity": "common",
 		"oneTimeUse": true,
-		"modifiers": ", Damage, HP, Expendable"
+		"modifiers": "Damage, heal, HP, Expendable"
 	},
 	{
 		"name": "Repulsion Armor Plate",
@@ -207,7 +207,7 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": ", Damage"
+		"modifiers": "Damage"
 	},
 	{
 		"name": "Roll of Pennies",
@@ -217,7 +217,7 @@
 		"release": "Survivors of the Void",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": ", Damage"
+		"modifiers": "Damage"
 	},
 	{
 		"name": "Rusted Key",
@@ -227,7 +227,7 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": true,
-		"modifiers": ", Expendable"
+		"modifiers": "Expendable"
 	},
 	{
 		"name": "Soldier's Syringe",
@@ -237,7 +237,7 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": ", Attack Speed"
+		"modifiers": "Attack Speed"
 	},
 	{
 		"name": "Sticky Bomb",
@@ -247,7 +247,7 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": ", Damage"
+		"modifiers": "Damage, on-hit effect"
 	},
 	{
 		"name": "Stun Grenade",
@@ -257,7 +257,7 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": "Unique"
+		"modifiers": "on-hit effect"
 	},
 	{
 		"name": "Topaz Brooch",
@@ -267,7 +267,7 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": ", HP"
+		"modifiers": "heal, HP, on-kill effect"
 	},
 	{
 		"name": "Tougher Times",
@@ -277,7 +277,7 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": ", Damage"
+		"modifiers": "Damage"
 	},
 	{
 		"name": "Tri-Tip Dagger",
@@ -287,7 +287,7 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": ", Damage"
+		"modifiers": "Damage, Bleed"
 	},
 	{
 		"name": "Warbanner",
@@ -297,7 +297,7 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": ", AOE, Movement"
+		"modifiers": "AOE, Movement, Teleporter"
 	},
 	{
 		"name": "AtG Missile Mk. 1",
@@ -307,7 +307,7 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": ", Damage"
+		"modifiers": "Damage, Missiles"
 	},
 	{
 		"name": "Bandolier",
@@ -317,7 +317,7 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "Unique"
+		"modifiers": "Skills, Cooldowns, on-kill effect"
 	},
 	{
 		"name": "Berzerker's Pauldron",
@@ -327,7 +327,7 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": ", AOE, Attack Speed, Movement"
+		"modifiers": "AOE, Attack Speed, Movement, on-kill effect"
 	},
 	{
 		"name": "Chronobauble",
@@ -337,7 +337,7 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": ", Movement"
+		"modifiers": "Movement, Slow, on-hit effect"
 	},
 	{
 		"name": "Death Mark",
@@ -347,7 +347,7 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": ", Damage"
+		"modifiers": "Damage"
 	},
 	{
 		"name": "Fuel Cell",
@@ -357,7 +357,7 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "Unique"
+		"modifiers": "Cooldowns"
 	},
 	{
 		"name": "Ghor's Tome",
@@ -367,7 +367,7 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "Unique"
+		"modifiers": "on-kill effect"
 	},
 	{
 		"name": "Harvester's Scythe",
@@ -377,7 +377,7 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": ", HP"
+		"modifiers": "heal, HP, Crit"
 	},
 	{
 		"name": "Hopoo Feather",
@@ -387,7 +387,7 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "Unique"
+		"modifiers": "ique"
 	},
 	{
 		"name": "Hunter's Harpoon",
@@ -397,7 +397,7 @@
 		"release": "Survivors of the Void",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": ", Movement"
+		"modifiers": "Movement, on-kill effect"
 	},
 	{
 		"name": "Ignition Tank",
@@ -407,7 +407,7 @@
 		"release": "Survivors of the Void",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": ", Damage"
+		"modifiers": "Damageignite"
 	},
 	{
 		"name": "Infusion",
@@ -417,7 +417,7 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": ", HP"
+		"modifiers": "heal, HP, on-kill effect"
 	},
 	{
 		"name": "Item Scrap, Green",
@@ -427,7 +427,7 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": true,
-		"modifiers": ", Expendable"
+		"modifiers": "Expendable"
 	},
 	{
 		"name": "Kjaro's Band",
@@ -437,7 +437,7 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": ", Damage"
+		"modifiers": "Damage"
 	},
 	{
 		"name": "Leeching Seed",
@@ -447,7 +447,7 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": ", Damage, HP"
+		"modifiers": "Damage, heal, HP"
 	},
 	{
 		"name": "Lepton Daisy",
@@ -457,7 +457,7 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": ", HP"
+		"modifiers": "heal, HP, Teleporter"
 	},
 	{
 		"name": "Old Guillotine",
@@ -467,7 +467,7 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": ", HP"
+		"modifiers": "heal, HP, Execute, Elite"
 	},
 	{
 		"name": "Old War Stealthkit",
@@ -477,7 +477,7 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": ", HP, Movement"
+		"modifiers": "heal, HP, Movement"
 	},
 	{
 		"name": "Predatory Instincts",
@@ -487,7 +487,7 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": ", Attack Speed"
+		"modifiers": "Attack Speed, Crit"
 	},
 	{
 		"name": "Razorwire",
@@ -497,7 +497,7 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": ", Damage"
+		"modifiers": "Damage"
 	},
 	{
 		"name": "Red Whip",
@@ -507,7 +507,7 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": ", Movement"
+		"modifiers": "Movement"
 	},
 	{
 		"name": "Regenerating Scrap",
@@ -517,7 +517,7 @@
 		"release": "Survivors of the Void",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "Unique"
+		"modifiers": "ique"
 	},
 	{
 		"name": "Rose Buckler",
@@ -527,7 +527,7 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": ", Defence, Movement"
+		"modifiers": "Armor, Sprint"
 	},
 	{
 		"name": "Runald's Band",
@@ -537,7 +537,7 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": ", Damage"
+		"modifiers": "Damage, Slow"
 	},
 	{
 		"name": "Shipping Request Form",
@@ -547,7 +547,7 @@
 		"release": "Survivors of the Void",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "Unique"
+		"modifiers": "ique"
 	},
 	{
 		"name": "Shuriken",
@@ -557,7 +557,7 @@
 		"release": "Survivors of the Void",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": ", Damage"
+		"modifiers": "Damage, Skills"
 	},
 	{
 		"name": "Squid Polyp",
@@ -567,7 +567,7 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": ", Attack Speed"
+		"modifiers": "Attack Speed, Spawn"
 	},
 	{
 		"name": "Ukulele",
@@ -577,7 +577,7 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": ", Damage, AOE"
+		"modifiers": "Damage, AOE, Lightning"
 	},
 	{
 		"name": "War Horn",
@@ -587,7 +587,7 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": ", Attack Speed"
+		"modifiers": "Attack Speed"
 	},
 	{
 		"name": "Wax Quail",
@@ -597,7 +597,7 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": ", Movement"
+		"modifiers": "Sprint"
 	},
 	{
 		"name": "Will-o'-the-wisp",
@@ -607,6 +607,1136 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": ", Damage"
+		"modifiers": "Damage, Spawn, on-kill effect"
+	},
+	{
+		"name": "57 Leaf Clover",
+		"desc": "All random effects are rolled +1 (+1 per stack) times for a favorable outcome.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/e/e5/57_Leaf_Clover.png/revision/latest/scale-to-width-down/64?cb=20200129192959",
+		"release": "Base",
+		"rarity": "Legendary",
+		"oneTimeUse": false,
+		"modifiers": "ique"
+	},
+	{
+		"name": "Aegis",
+		"desc": "Healing past full grants you a temporary barrier for 50% (+50% per stack) of the amount you healed.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/e/e5/Aegis.png/revision/latest/scale-to-width-down/64?cb=20200129193000",
+		"release": "Base",
+		"rarity": "Legendary",
+		"oneTimeUse": false,
+		"modifiers": "heal, HP"
+	},
+	{
+		"name": "Alien Head",
+		"desc": "Reduce skill cooldowns by 25% (+25% per stack).",
+		"stack": "Exponential",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/2/25/Alien_Head.png/revision/latest/scale-to-width-down/64?cb=20200129193016",
+		"release": "Base",
+		"rarity": "Legendary",
+		"oneTimeUse": false,
+		"modifiers": "Skills, Cooldowns"
+	},
+	{
+		"name": "Ben's Raincoat",
+		"desc": "Prevents 1 (+1 per stack) debuff and instead grants a temporary barrier for 10% of maximum health. Recharges every 5 seconds.",
+		"stack": "Linear\nNone",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/2/25/Ben%27s_Raincoat.png/revision/latest/scale-to-width-down/64?cb=20220302043224",
+		"release": "Survivors of the Void",
+		"rarity": "Legendary",
+		"oneTimeUse": false,
+		"modifiers": "heal, HP"
+	},
+	{
+		"name": "Bottled Chaos",
+		"desc": "Trigger a random equipment effect 1 (+1 per stack) time(s).",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/4/42/Bottled_Chaos.png/revision/latest/scale-to-width-down/64?cb=20220302043224",
+		"release": "Survivors of the Void",
+		"rarity": "Legendary",
+		"oneTimeUse": false,
+		"modifiers": "ique"
+	},
+	{
+		"name": "Brainstalks",
+		"desc": "Upon killing an elite monster, enter a frenzy for 4s (+4s per stack) where skills have 0.5s cooldowns.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/c/c0/Brainstalks.png/revision/latest/scale-to-width-down/64?cb=20200129193028",
+		"release": "Base",
+		"rarity": "Legendary",
+		"oneTimeUse": false,
+		"modifiers": "Skills, Cooldowns, Elite, on-kill effect"
+	},
+	{
+		"name": "Brilliant Behemoth",
+		"desc": "All your attacks explode in a 4m (+2.5m per stack) radius for a bonus 60% TOTAL damage to nearby enemies.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/f/fa/Brilliant_Behemoth.png/revision/latest/scale-to-width-down/64?cb=20200129193029",
+		"release": "Base",
+		"rarity": "Legendary",
+		"oneTimeUse": false,
+		"modifiers": "Damage"
+	},
+	{
+		"name": "Ceremonial Dagger",
+		"desc": "Killing an enemy fires out 3 homing daggers that deal 150% (+150% per stack) base damage.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/7/76/Ceremonial_Dagger.png/revision/latest/scale-to-width-down/64?cb=20200129193038",
+		"release": "Base",
+		"rarity": "Legendary",
+		"oneTimeUse": false,
+		"modifiers": "Damage, on-kill effect"
+	},
+	{
+		"name": "Defensive Microbots",
+		"desc": "Shoot down 1 (+1 per stack) projectiles within 20m every 0.5 seconds. Recharge rate scales with attack speed.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/d/dd/Defensive_Microbots.png/revision/latest/scale-to-width-down/64?cb=20200811174752",
+		"release": "Base",
+		"rarity": "Legendary",
+		"oneTimeUse": false,
+		"modifiers": "AOE, Attack Speed"
+	},
+	{
+		"name": "Dio's Best Friend",
+		"desc": "Upon death, this item will be consumed and you will return to life with 3 seconds of invulnerability.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/d/dc/Dio%27s_Best_Friend.png/revision/latest/scale-to-width-down/64?cb=20200129193050",
+		"release": "Base",
+		"rarity": "Legendary",
+		"oneTimeUse": true,
+		"modifiers": "Expendable"
+	},
+	{
+		"name": "Frost Relic",
+		"desc": "Killing an enemy surrounds you with an ice storm that deals 1200% damage per second and slows enemies by 80% for 1.5s. The storm grows with every kill, increasing its radius by 2m. Stacks up to 18m (+12m per stack).",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/5/58/Frost_Relic.png/revision/latest/scale-to-width-down/64?cb=20200129193056",
+		"release": "Base",
+		"rarity": "Legendary",
+		"oneTimeUse": false,
+		"modifiers": "Damage, Slow, on-kill effect"
+	},
+	{
+		"name": "H3AD-5T v2",
+		"desc": "Increase jump height. Creates a 5m-100m radius kinetic explosion on hitting the ground, dealing 1000%-10000% base damage that scales up with fall distance. Recharges in 10 (-50% per stack) seconds.",
+		"stack": "Reciprocal",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/3/36/H3AD-5T_v2.png/revision/latest/scale-to-width-down/64?cb=20200129193104",
+		"release": "Base",
+		"rarity": "Legendary",
+		"oneTimeUse": false,
+		"modifiers": "Damage, on-hit effect"
+	},
+	{
+		"name": "Happiest Mask",
+		"desc": "Killing enemies has a 7% chance to spawn a ghost of the killed enemy with 1500% damage. Lasts 30s (+30s per stack).",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/d/d4/Happiest_Mask.png/revision/latest/scale-to-width-down/64?cb=20200129193106",
+		"release": "Base",
+		"rarity": "Legendary",
+		"oneTimeUse": false,
+		"modifiers": "Damage, Spawn, on-kill effect"
+	},
+	{
+		"name": "Hardlight Afterburner",
+		"desc": "Add +2 (+2 per stack) charges of your Utility skill. Reduces Utility skill cooldown by 33%.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/2/20/Hardlight_Afterburner.png/revision/latest/scale-to-width-down/64?cb=20200129193107",
+		"release": "Base",
+		"rarity": "Legendary",
+		"oneTimeUse": false,
+		"modifiers": "Skills, Cooldowns"
+	},
+	{
+		"name": "Interstellar Desk Plant",
+		"desc": "On kill, plant a healing fruit seed that grows into a plant after 5 seconds.\n\nThe plant heals for 5% of maximum health every 0.5 second to all allies within 10m (+5.0m per stack). Lasts 10 seconds.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/1/1e/Interstellar_Desk_Plant.png/revision/latest/scale-to-width-down/64?cb=20200331153435",
+		"release": "Base",
+		"rarity": "Legendary",
+		"oneTimeUse": false,
+		"modifiers": "AOE, heal, HP, on-kill effect"
+	},
+	{
+		"name": "Item Scrap, Red",
+		"desc": "Does nothing. Prioritized when used with 3D Printers.",
+		"stack": "-",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/4/48/Item_Scrap%2C_Red.png/revision/latest/scale-to-width-down/64?cb=20200811165017",
+		"release": "Base",
+		"rarity": "Legendary",
+		"oneTimeUse": true,
+		"modifiers": "Expendable"
+	},
+	{
+		"name": "Laser Scope",
+		"desc": "Critical Strikes deal an additional 100% damage (+100% per stack).",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/0/00/Laser_Scope.png/revision/latest/scale-to-width-down/64?cb=20220302050022",
+		"release": "Survivors of the Void",
+		"rarity": "Legendary",
+		"oneTimeUse": false,
+		"modifiers": "Damage, Crit"
+	},
+	{
+		"name": "N'kuhana's Opinion",
+		"desc": "Store 100% (+100% per stack) of healing as Soul Energy. After your Soul Energy reaches 10% of your maximum health, fire a skull that deals 250% of your Soul Energy as damage.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/c/c9/N%27kuhana%27s_Opinion.png/revision/latest/scale-to-width-down/64?cb=20200129193121",
+		"release": "Base",
+		"rarity": "Legendary",
+		"oneTimeUse": false,
+		"modifiers": "Damage, heal, HP"
+	},
+	{
+		"name": "Pocket I.C.B.M.",
+		"desc": "All missile items and equipment fire an additional 2 missiles. Increase missile damage by 0% (+50% per stack)",
+		"stack": "Linear\nNone",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/f/ff/Pocket_I.C.B.M..png/revision/latest/scale-to-width-down/64?cb=20220302043224",
+		"release": "Survivors of the Void",
+		"rarity": "Legendary",
+		"oneTimeUse": false,
+		"modifiers": "Damage, Missiles"
+	},
+	{
+		"name": "Rejuvenation Rack",
+		"desc": "Heal +100% (+100% per stack) more.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/0/0a/Rejuvenation_Rack.png/revision/latest/scale-to-width-down/64?cb=20200129193141",
+		"release": "Base",
+		"rarity": "Legendary",
+		"oneTimeUse": false,
+		"modifiers": "heal, HP"
+	},
+	{
+		"name": "Resonance Disc",
+		"desc": "Killing 4 enemies in 7 seconds charges the Resonance Disc. The disc launches itself toward a target for 300% base damage (+300% per stack), piercing all enemies it doesn't kill, and then explodes for 1000% base damage (+1000% per stack). Returns to the user, striking all enemies along the way for 300% base damage (+300% per stack).",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/8/8d/Resonance_Disc.png/revision/latest/scale-to-width-down/64?cb=20200129235341",
+		"release": "Base",
+		"rarity": "Legendary",
+		"oneTimeUse": false,
+		"modifiers": "Damage, on-kill effect"
+	},
+	{
+		"name": "Sentient Meat Hook",
+		"desc": "20% (+20% per stack) chance on hit to fire homing hooks at up to 10 (+5 per stack) enemies for 100% TOTAL damage.",
+		"stack": "Hyperbolic\nLinear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/e/e7/Sentient_Meat_Hook.png/revision/latest/scale-to-width-down/64?cb=20200129193151",
+		"release": "Base",
+		"rarity": "Legendary",
+		"oneTimeUse": false,
+		"modifiers": "Damage, on-hit effect"
+	},
+	{
+		"name": "Shattering Justice",
+		"desc": "After hitting an enemy 5 times, reduce their armor by 60 for 8 (+8 per stack) seconds.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/2/2d/Shattering_Justice.png/revision/latest/scale-to-width-down/64?cb=20200129235342",
+		"release": "Base",
+		"rarity": "Legendary",
+		"oneTimeUse": false,
+		"modifiers": "Armor, on-hit effect"
+	},
+	{
+		"name": "Soulbound Catalyst",
+		"desc": "Kills reduce equipment cooldown by 4s (+2s per stack).",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/f/f1/Soulbound_Catalyst.png/revision/latest/scale-to-width-down/64?cb=20200129193159",
+		"release": "Base",
+		"rarity": "Legendary",
+		"oneTimeUse": false,
+		"modifiers": "Cooldowns"
+	},
+	{
+		"name": "Spare Drone Parts",
+		"desc": "Gain Col. Droneman. Drones gain +50% (+50% per stack) attack speed and cooldown reduction. Drones gain 10% chance to fire a missile on hit, dealing 300% TOTAL damage. Drones gain an automatic chain gun that deals 6x100% damage, bouncing to 2 enemies.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/8/85/Spare_Drone_Parts.png/revision/latest/scale-to-width-down/64?cb=20220302050131",
+		"release": "Survivors of the Void",
+		"rarity": "Legendary",
+		"oneTimeUse": false,
+		"modifiers": "Damage, Attack Speed, Spawn, Cooldowns, Missiles, on-hit effect"
+	},
+	{
+		"name": "Symbiotic Scorpion",
+		"desc": "100% chance on hit to reduce armor by 2 (+2 per stack) permanently.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/9/91/Symbiotic_Scorpion.png/revision/latest/scale-to-width-down/64?cb=20220302052918",
+		"release": "Survivors of the Void",
+		"rarity": "Legendary",
+		"oneTimeUse": false,
+		"modifiers": "Armor, on-hit effect"
+	},
+	{
+		"name": "Unstable Tesla Coil",
+		"desc": "Fire out lightning that hits 3 (+2 per stack) enemies for 200% base damage every 0.5s. The Tesla Coil switches off every 10 seconds.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/e/e4/Unstable_Tesla_Coil.png/revision/latest/scale-to-width-down/64?cb=20200129193214",
+		"release": "Base",
+		"rarity": "Legendary",
+		"oneTimeUse": false,
+		"modifiers": "Damage, Lightning"
+	},
+	{
+		"name": "Wake of Vultures",
+		"desc": "Gain the power of any killed elite monster for 8s (+5s per stack).",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/f/f8/Wake_of_Vultures.png/revision/latest/scale-to-width-down/64?cb=20200129193215",
+		"release": "Base",
+		"rarity": "Legendary",
+		"oneTimeUse": false,
+		"modifiers": "Elite"
+	},
+	{
+		"name": "Artifact Key",
+		"desc": "A stone shard with immense power.",
+		"stack": "",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/1/17/Artifact_Key.png/revision/latest/scale-to-width-down/64?cb=20200331153432",
+		"release": "Base",
+		"rarity": "Boss / Planet",
+		"oneTimeUse": false,
+		"modifiers": "ique"
+	},
+	{
+		"name": "Charged Perforator",
+		"desc": "10% chance on hit to down a lightning strike, dealing 500% (+500% per stack) damage.",
+		"stack": "",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/c/cc/Charged_Perforator.png/revision/latest/scale-to-width-down/64?cb=20210326044120",
+		"release": "Base",
+		"rarity": "Boss / Planet",
+		"oneTimeUse": false,
+		"modifiers": "Damage, Lightning, on-hit effect"
+	},
+	{
+		"name": "Defense Nucleus",
+		"desc": "Killing elite monsters spawns an Alpha Construct with bonus 300% damage and 300% health. Limited to 4 (+4 per stack).",
+		"stack": "",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/1/10/Defense_Nucleus.png/revision/latest/scale-to-width-down/64?cb=20220302095820",
+		"release": "Base",
+		"rarity": "Boss / Planet",
+		"oneTimeUse": false,
+		"modifiers": "Damage, heal, HP, Spawn, Elite, on-kill effect"
+	},
+	{
+		"name": "Empathy Cores",
+		"desc": "Every 30 seconds, summon two Solus Probes that gain +100% (+100% per stack) damage per ally on your team.",
+		"stack": "",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/5/51/Empathy_Cores.png/revision/latest/scale-to-width-down/64?cb=20210326044118",
+		"release": "Base",
+		"rarity": "Boss / Planet",
+		"oneTimeUse": false,
+		"modifiers": "Damage, Spawn"
+	},
+	{
+		"name": "Genesis Loop",
+		"desc": "Falling below 25% health causes you to explode, dealing 6000% base damage. Recharges every 30 / (2 +1 per stack) seconds .",
+		"stack": "",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/c/c8/Genesis_Loop.png/revision/latest/scale-to-width-down/64?cb=20200129235333",
+		"release": "Base",
+		"rarity": "Boss / Planet",
+		"oneTimeUse": false,
+		"modifiers": "Damage, heal, HP"
+	},
+	{
+		"name": "Halcyon Seed",
+		"desc": "Summon Aurelionite during the teleporter event. It has 100% (+50% per stack) damage and 100% (+100% per stack) health.",
+		"stack": "",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/e/e6/Halcyon_Seed.png/revision/latest/scale-to-width-down/64?cb=20200129193105",
+		"release": "Base",
+		"rarity": "Boss / Planet",
+		"oneTimeUse": false,
+		"modifiers": "Damage, heal, HP, Spawn, Teleporter"
+	},
+	{
+		"name": "Irradiant Pearl",
+		"desc": "Increases ALL stats by 10% (+10% per stack).",
+		"stack": "",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/e/ef/Irradiant_Pearl.png/revision/latest/scale-to-width-down/64?cb=20200129235334",
+		"release": "Base",
+		"rarity": "Boss / Planet",
+		"oneTimeUse": false,
+		"modifiers": "ique"
+	},
+	{
+		"name": "Item Scrap, Yellow",
+		"desc": "Does nothing. Prioritized when used with 3D Printers.",
+		"stack": "",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/7/7f/Item_Scrap%2C_Yellow.png/revision/latest/scale-to-width-down/64?cb=20200811165019",
+		"release": "Base",
+		"rarity": "Boss / Planet",
+		"oneTimeUse": true,
+		"modifiers": "Expendable"
+	},
+	{
+		"name": "Little Disciple",
+		"desc": "Fire a tracking wisp for 300% (+300% per stack) damage. Fires every 1.6 seconds while sprinting. Fire rate increases with movement speed.",
+		"stack": "",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/0/08/Little_Disciple.png/revision/latest/scale-to-width-down/64?cb=20200129193117",
+		"release": "Base",
+		"rarity": "Boss / Planet",
+		"oneTimeUse": false,
+		"modifiers": "Damage, Movement, Sprint"
+	},
+	{
+		"name": "Mired Urn",
+		"desc": "While in combat, the nearest 1 (+1 per stack) enemies to you within 13m will be 'tethered' to you, dealing 100% damage per second, applying tar, and healing you for 100% of the damage dealt.",
+		"stack": "",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/6/62/Mired_Urn.png/revision/latest/scale-to-width-down/64?cb=20200811165020",
+		"release": "Base",
+		"rarity": "Boss / Planet",
+		"oneTimeUse": false,
+		"modifiers": "Damage, AOE, heal, HP"
+	},
+	{
+		"name": "Molten Perforator",
+		"desc": "10% chance on hit to call forth 3 magma balls from an enemy, dealing 300% (+300% per stack) damage each.",
+		"stack": "",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/7/71/Molten_Perforator.png/revision/latest/scale-to-width-down/64?cb=20200811165021",
+		"release": "Base",
+		"rarity": "Boss / Planet",
+		"oneTimeUse": false,
+		"modifiers": "Damage, on-hit effect"
+	},
+	{
+		"name": "Pearl",
+		"desc": "Increases maximum health by 10% (+10% per stack).",
+		"stack": "",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/7/73/Pearl.png/revision/latest/scale-to-width-down/64?cb=20200129235340",
+		"release": "Base",
+		"rarity": "Boss / Planet",
+		"oneTimeUse": false,
+		"modifiers": "heal, HP"
+	},
+	{
+		"name": "Planula",
+		"desc": "Heal from incoming damage for 15 (+15 per stack).",
+		"stack": "",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/a/a9/Planula.png/revision/latest/scale-to-width-down/64?cb=20210326044119",
+		"release": "Base",
+		"rarity": "Boss / Planet",
+		"oneTimeUse": false,
+		"modifiers": "Damage, heal, HP"
+	},
+	{
+		"name": "Queen's Gland",
+		"desc": "Every 30 seconds, summon a Beetle Guard with bonus 300% damage and 100% health. Can have up to 1 (+1 per stack) Guards at a time.",
+		"stack": "",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/0/0b/Queen%27s_Gland.png/revision/latest/scale-to-width-down/64?cb=20200129193137",
+		"release": "Base",
+		"rarity": "Boss / Planet",
+		"oneTimeUse": false,
+		"modifiers": "Damage, heal, HP, Spawn"
+	},
+	{
+		"name": "Shatterspleen",
+		"desc": "Gain 5% critical chance. Critical Strikes bleed enemies for 240% base damage. Bleeding enemies explode on death for 400% (+400% per stack) damage, plus an additional 15% (+15% per stack) of their maximum health.",
+		"stack": "",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/c/cd/Shatterspleen.png/revision/latest/scale-to-width-down/64?cb=20200811165023",
+		"release": "Base",
+		"rarity": "Boss / Planet",
+		"oneTimeUse": false,
+		"modifiers": "Damage, heal, HP, Bleed, Crit"
+	},
+	{
+		"name": "Titanic Knurl",
+		"desc": "Increase maximum health by 40 (+40 per stack) and base health regeneration by +1.6 hp/s (+1.6 hp/s per stack).",
+		"stack": "",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/9/9f/Titanic_Knurl.png/revision/latest/scale-to-width-down/64?cb=20200129193208",
+		"release": "Base",
+		"rarity": "Boss / Planet",
+		"oneTimeUse": false,
+		"modifiers": "heal, HP"
+	},
+	{
+		"name": "Beads of Fealty",
+		"desc": "Seems to do nothing... but...",
+		"stack": "-",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/0/07/Beads_of_Fealty.png/revision/latest/scale-to-width-down/64?cb=20200129235330",
+		"release": "Base",
+		"rarity": "Lunar",
+		"oneTimeUse": false,
+		"modifiers": "ique"
+	},
+	{
+		"name": "Brittle Crown",
+		"desc": "30% chance on hit to gain 2 (+2 per stack) gold. Scales over time.\n\nLose gold on taking damage equal to 100% (+100% per stack) of the maximum health percentage you lost.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/a/ae/Brittle_Crown.png/revision/latest/scale-to-width-down/64?cb=20200129193030",
+		"release": "Base",
+		"rarity": "Lunar",
+		"oneTimeUse": false,
+		"modifiers": "Damage, heal, HP, on-hit effect"
+	},
+	{
+		"name": "Corpsebloom",
+		"desc": "Heal +100% (+100% per stack) more. All healing is applied over time. Can heal for a maximum of 10% (-50% per stack) of your health per second.",
+		"stack": "Linear\nReciprocal",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/3/31/Corpsebloom.png/revision/latest/scale-to-width-down/64?cb=20200129193042",
+		"release": "Base",
+		"rarity": "Lunar",
+		"oneTimeUse": false,
+		"modifiers": "heal, HP"
+	},
+	{
+		"name": "Defiant Gouge",
+		"desc": "Using a Shrine summons enemies (stronger per stack) nearby. Scales over time.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/b/b5/Defiant_Gouge.png/revision/latest/scale-to-width-down/64?cb=20200811165016",
+		"release": "Base",
+		"rarity": "Lunar",
+		"oneTimeUse": false,
+		"modifiers": "Spawn"
+	},
+	{
+		"name": "Egocentrism",
+		"desc": "Every 3 (-50% per stack) seconds, gain an orbiting bomb that detonates on impact for 360% damage, up to a maximum of 3 bombs (+1 per stack). Every 60 seconds, a random item is converted into this item.",
+		"stack": "Reciprocal\nLinear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/9/90/Egocentrism.png/revision/latest/scale-to-width-down/64?cb=20220302043224",
+		"release": "Survivors of the Void",
+		"rarity": "Lunar",
+		"oneTimeUse": false,
+		"modifiers": "Damage"
+	},
+	{
+		"name": "Essence of Heresy",
+		"desc": "Replace your Special Skill with Ruin.\n\nDealing damage adds a stack of Ruin for 10 (+10 per stack) seconds. Activating the skill detonates all Ruin stacks at unlimited range, dealing 300% damage plus 120% damage per stack of Ruin. Recharges after 8 (+8 per stack) seconds.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/3/3e/Essence_of_Heresy.png/revision/latest/scale-to-width-down/64?cb=20210326043943",
+		"release": "Base",
+		"rarity": "Lunar",
+		"oneTimeUse": false,
+		"modifiers": "Damage, Skills"
+	},
+	{
+		"name": "Eulogy Zero",
+		"desc": "Items have a 5% (+5% per stack) chance to become a Lunar item instead.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/1/12/Eulogy_Zero.png/revision/latest/scale-to-width-down/64?cb=20220302060146",
+		"release": "Survivors of the Void",
+		"rarity": "Lunar",
+		"oneTimeUse": false,
+		"modifiers": "ique"
+	},
+	{
+		"name": "Focused Convergence",
+		"desc": "Teleporters charge 30% (+30% per stack) faster, but the size of the Teleporter zone is 50% (-50% per stack) smaller.",
+		"stack": "Linear\nReciprocal",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/2/2c/Focused_Convergence.png/revision/latest/scale-to-width-down/64?cb=20200331153434",
+		"release": "Base",
+		"rarity": "Lunar",
+		"oneTimeUse": false,
+		"modifiers": "AOE, Teleporter"
+	},
+	{
+		"name": "Gesture of the Drowned",
+		"desc": "Reduce Equipment cooldown by 50% (+15% per stack). Forces your Equipment to activate whenever it is off cooldown.",
+		"stack": "Exponential",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/c/c9/Gesture_of_the_Drowned.png/revision/latest/scale-to-width-down/64?cb=20200129193100",
+		"release": "Base",
+		"rarity": "Lunar",
+		"oneTimeUse": false,
+		"modifiers": "Cooldowns"
+	},
+	{
+		"name": "Hooks of Heresy",
+		"desc": "Replace your Secondary Skill with Slicing Maelstrom.\n\nCharge up a projectile that deals 875% damage per second to nearby enemies, exploding after 3 seconds to deal 700% damage and root enemies for 3 (+3 per stack) seconds. Recharges after 5 (+5 per stack) seconds.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/6/66/Hooks_of_Heresy.png/revision/latest/scale-to-width-down/64?cb=20210326043944",
+		"release": "Base",
+		"rarity": "Lunar",
+		"oneTimeUse": false,
+		"modifiers": "Damage, Skills"
+	},
+	{
+		"name": "Light Flux Pauldron",
+		"desc": "Decrease skill cooldowns by 50% (+50% per stack). Decrease attack speed by 50% (+50% per stack).",
+		"stack": "Exponential\nReciprocal",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/6/6e/Light_Flux_Pauldron.png/revision/latest/scale-to-width-down/64?cb=20220302095820",
+		"release": "Survivors of the Void",
+		"rarity": "Lunar",
+		"oneTimeUse": false,
+		"modifiers": "Attack Speed, Skills, Cooldowns"
+	},
+	{
+		"name": "Mercurial Rachis",
+		"desc": "Creates a Ward of Power in a random location nearby that buffs both enemies and allies within 16m (+50% per stack), causing them to deal +50% damage.",
+		"stack": "Exponential",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/2/25/Mercurial_Rachis.png/revision/latest/scale-to-width-down/64?cb=20200811165019",
+		"release": "Base",
+		"rarity": "Lunar",
+		"oneTimeUse": false,
+		"modifiers": "Damage, AOE"
+	},
+	{
+		"name": "Purity",
+		"desc": "All skill cooldowns are reduced by 2 (+1 per stack) seconds. All random effects are rolled +1 (+1 per stack) times for an unfavorable outcome.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/a/a2/Purity.png/revision/latest/scale-to-width-down/64?cb=20200811165022",
+		"release": "Base",
+		"rarity": "Lunar",
+		"oneTimeUse": false,
+		"modifiers": "Skills, Cooldowns"
+	},
+	{
+		"name": "Shaped Glass",
+		"desc": "Increase base damage by 100% (+100% per stack). Reduce maximum health by 50% (+50% per stack).",
+		"stack": "Exponential",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/f/ff/Shaped_Glass.png/revision/latest/scale-to-width-down/64?cb=20200129193153",
+		"release": "Base",
+		"rarity": "Lunar",
+		"oneTimeUse": false,
+		"modifiers": "Damage, heal, HP"
+	},
+	{
+		"name": "Stone Flux Pauldron",
+		"desc": "Increase max health by 100% (+100% per stack). Reduce movement speed by 50% (+50% per stack).",
+		"stack": "Linear\nReciprocal",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/b/b1/Stone_Flux_Pauldron.png/revision/latest/scale-to-width-down/64?cb=20220302095820",
+		"release": "Survivors of the Void",
+		"rarity": "Lunar",
+		"oneTimeUse": false,
+		"modifiers": "heal, HP, Movement"
+	},
+	{
+		"name": "Strides of Heresy",
+		"desc": "Replace your Utility Skill with Shadowfade.\n\nFade away, becoming intangible and gaining +30% movement speed. Heal for 18.2% (+18.2% per stack) of your maximum health. Lasts 3 (+3 per stack) seconds.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/1/1a/Strides_of_Heresy.png/revision/latest/scale-to-width-down/64?cb=20200129235345",
+		"release": "Base",
+		"rarity": "Lunar",
+		"oneTimeUse": false,
+		"modifiers": "heal, HP, Movement, Skills"
+	},
+	{
+		"name": "Transcendence",
+		"desc": "Convert all but 1 health into regenerating shields. Gain 50% (+25% per stack) maximum health.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/8/85/Transcendence.png/revision/latest/scale-to-width-down/64?cb=20200129193211",
+		"release": "Base",
+		"rarity": "Lunar",
+		"oneTimeUse": false,
+		"modifiers": "heal, HP, Shield"
+	},
+	{
+		"name": "Visions of Heresy",
+		"desc": "Replace your Primary Skill with Hungering Gaze.\n\nFire a flurry of tracking shards that detonate after a delay, dealing 120% base damage. Hold up to 12 charges (+12 per stack) that reload after 2 seconds (+2 per stack).",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/3/31/Visions_of_Heresy.png/revision/latest/scale-to-width-down/64?cb=20200129235347",
+		"release": "Base",
+		"rarity": "Lunar",
+		"oneTimeUse": false,
+		"modifiers": "Damage, Skills"
+	},
+	{
+		"name": "Benthic Bloom",
+		"desc": "Upgrades 3 (+3 per stack) random items to items of the next higher rarity at the start of each stage. Corrupts all 57 Leaf Clovers.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/b/b0/Benthic_Bloom.png/revision/latest/scale-to-width-down/64?cb=20220302043224",
+		"release": "Survivors of the Void",
+		"rarity": "Void",
+		"oneTimeUse": false,
+		"modifiers": "ique"
+	},
+	{
+		"name": "Encrusted Key",
+		"desc": "A hidden cache containing an item (60%/30%/10%) will appear in a random location on each stage. Opening the cache consumes this item. Corrupts all Rusted Keys.",
+		"stack": "-",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/f/fa/Encrusted_Key.png/revision/latest/scale-to-width-down/64?cb=20220302043224",
+		"release": "Survivors of the Void",
+		"rarity": "Void",
+		"oneTimeUse": true,
+		"modifiers": "Expendable"
+	},
+	{
+		"name": "Lost Seer's Lenses",
+		"desc": "Your attacks have a 0.5% (+0.5% per stack) chance to instantly kill a non-Boss enemy. Corrupts all Lens-Maker's Glasses.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/1/14/Lost_Seer%27s_Lenses.png/revision/latest/scale-to-width-down/64?cb=20220302043224",
+		"release": "Survivors of the Void",
+		"rarity": "Void",
+		"oneTimeUse": false,
+		"modifiers": "Execute"
+	},
+	{
+		"name": "Lysate Cell",
+		"desc": "Add +1 (+1 per stack) charge of your Special skill. Reduces Special skill cooldown by 33%. Corrupts all Fuel Cells.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/5/53/Lysate_Cell.png/revision/latest/scale-to-width-down/64?cb=20220302043224",
+		"release": "Survivors of the Void",
+		"rarity": "Void",
+		"oneTimeUse": false,
+		"modifiers": "Skills, Cooldowns"
+	},
+	{
+		"name": "Needletick",
+		"desc": "10% (+10% per stack) chance to collapse an enemy for 400% base damage. Corrupts all Tri-Tip Daggers.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/7/76/Needletick.png/revision/latest/scale-to-width-down/64?cb=20220302043224",
+		"release": "Survivors of the Void",
+		"rarity": "Void",
+		"oneTimeUse": false,
+		"modifiers": "Damage"
+	},
+	{
+		"name": "Newly Hatched Zoea",
+		"desc": "Every 60 (-50% per stack) seconds, gain a random Void ally. Can have up to 1 (+1 per stack) allies at a time. Corrupts all yellow items.",
+		"stack": "Reciprocal\nLinear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/5/55/Newly_Hatched_Zoea.png/revision/latest/scale-to-width-down/64?cb=20220302132150",
+		"release": "Survivors of the Void",
+		"rarity": "Void",
+		"oneTimeUse": false,
+		"modifiers": "ique"
+	},
+	{
+		"name": "Plasma Shrimp",
+		"desc": "Gain a shield equal to 10% of your maximum health. While you have a shield, hitting an enemy fires a missile that deals 40% (+40% per stack) TOTAL damage. Corrupts all AtG Missile Mk. 1s.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/c/cf/Plasma_Shrimp.png/revision/latest/scale-to-width-down/64?cb=20220302041001",
+		"release": "Survivors of the Void",
+		"rarity": "Void",
+		"oneTimeUse": false,
+		"modifiers": "Damage, heal, HP, Shield, Missiles, on-hit effect"
+	},
+	{
+		"name": "Pluripotent Larva",
+		"desc": "Upon death, this item will be consumed and you will return to life with 3 seconds of invulnerability, and all of your items that can be corrupted will be. Corrupts all Dio's Best Friends.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/2/26/Pluripotent_Larva.png/revision/latest/scale-to-width-down/64?cb=20220302123635",
+		"release": "Survivors of the Void",
+		"rarity": "Void",
+		"oneTimeUse": true,
+		"modifiers": "Expendable"
+	},
+	{
+		"name": "Polylute",
+		"desc": "25% chance to fire lightning for 60% TOTAL damage up to 3 (+3 per stack) times. Corrupts all Ukuleles.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/b/b5/Polylute.png/revision/latest/scale-to-width-down/64?cb=20220302043421",
+		"release": "Survivors of the Void",
+		"rarity": "Void",
+		"oneTimeUse": false,
+		"modifiers": "Damage, Lightning"
+	},
+	{
+		"name": "Safer Spaces",
+		"desc": "Blocks incoming damage once. Recharges after 15 seconds (-10% per stack) Corrupts all Tougher Times.",
+		"stack": "Exponential",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/9/9d/Safer_Spaces.png/revision/latest/scale-to-width-down/64?cb=20220302040829",
+		"release": "Survivors of the Void",
+		"rarity": "Void",
+		"oneTimeUse": false,
+		"modifiers": "Damage"
+	},
+	{
+		"name": "Singularity Band",
+		"desc": "Hits that deal more than 400% damage also fire a black hole that draws enemies within 15m into its center. Lasts 5 seconds before collapsing, dealing 100% (+100% per stack) TOTAL damage. Recharges every 20 seconds. Corrupts all Runald's and Kjaro's Bands.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/3/30/Singularity_Band.png/revision/latest/scale-to-width-down/64?cb=20220302060147",
+		"release": "Survivors of the Void",
+		"rarity": "Void",
+		"oneTimeUse": false,
+		"modifiers": "Damage, AOE"
+	},
+	{
+		"name": "Tentabauble",
+		"desc": "5% (+5% per stack) chance on hit to root enemies for 1s (+1s per stack). Corrupts all Chronobaubles.",
+		"stack": "Hyperbolic\nLinear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/6/64/Tentabauble.png/revision/latest/scale-to-width-down/64?cb=20220302111728",
+		"release": "Survivors of the Void",
+		"rarity": "Void",
+		"oneTimeUse": false,
+		"modifiers": "on-hit effect"
+	},
+	{
+		"name": "Voidsent Flame",
+		"desc": "Upon hitting an enemy at full health, spawn a lava pillar in a 12m (+2.4m per stack) radius for 260% (+156% per stack) base damage. Corrupts all Will-o'-the-wisps.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/6/69/Voidsent_Flame.png/revision/latest/scale-to-width-down/64?cb=20220302111748",
+		"release": "Survivors of the Void",
+		"rarity": "Void",
+		"oneTimeUse": false,
+		"modifiers": "Damage, heal, HP, Spawn, on-hit effect"
+	},
+	{
+		"name": "Weeping Fungus",
+		"desc": "Heals for 2% (+2% per stack) of your health every second while sprinting. Corrupts all Bustling Fungi.",
+		"stack": "Linear",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/e/e1/Weeping_Fungus.png/revision/latest/scale-to-width-down/64?cb=20220302043223",
+		"release": "Survivors of the Void",
+		"rarity": "Void",
+		"oneTimeUse": false,
+		"modifiers": "heal, HP, Sprint"
+	},
+	{
+		"name": "Blast Shower",
+		"desc": "Cleanse all negative effects. Includes debuffs, damage over time, and nearby projectiles.",
+		"stack": "20s",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/4/4f/Blast_Shower.png/revision/latest/scale-to-width-down/64?cb=20200129235330",
+		"release": "Base",
+		"rarity": "Equipment",
+		"oneTimeUse": false,
+		"modifiers": "Damage"
+	},
+	{
+		"name": "Disposable Missile Launcher",
+		"desc": "Fire a swarm of 12 missiles that deal 12x300% damage.",
+		"stack": "45s",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/7/78/Disposable_Missile_Launcher.png/revision/latest/scale-to-width-down/64?cb=20200129193051",
+		"release": "Base",
+		"rarity": "Equipment",
+		"oneTimeUse": false,
+		"modifiers": "Damage, Missiles"
+	},
+	{
+		"name": "Eccentric Vase",
+		"desc": "Create a quantum tunnel of up to 1000m in length. Lasts 30 seconds.",
+		"stack": "45s",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/c/ce/Eccentric_Vase.png/revision/latest/scale-to-width-down/64?cb=20200129193052",
+		"release": "Base",
+		"rarity": "Equipment",
+		"oneTimeUse": false,
+		"modifiers": "ique"
+	},
+	{
+		"name": "Executive Card",
+		"desc": "Whenever you make a gold purchase, get 10% of the spent gold back. If the purchase is a multishop terminal, the other terminals will remain open.",
+		"stack": "0.1s",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/8/82/Executive_Card.png/revision/latest/scale-to-width-down/64?cb=20220302120708",
+		"release": "Survivors of the Void",
+		"rarity": "Equipment",
+		"oneTimeUse": false,
+		"modifiers": "ique"
+	},
+	{
+		"name": "Foreign Fruit",
+		"desc": "Instantly heal for 50% of your maximum health.",
+		"stack": "45s",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/d/d0/Foreign_Fruit.png/revision/latest/scale-to-width-down/64?cb=20200129193055",
+		"release": "Base",
+		"rarity": "Equipment",
+		"oneTimeUse": false,
+		"modifiers": "heal, HP"
+	},
+	{
+		"name": "Forgive Me Please",
+		"desc": "Throw a cursed doll out that triggers any On-Kill effects you have every 1 second for 8 seconds.",
+		"stack": "45s",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/7/78/Forgive_Me_Please.png/revision/latest/scale-to-width-down/64?cb=20200811161828",
+		"release": "Base",
+		"rarity": "Equipment",
+		"oneTimeUse": false,
+		"modifiers": "ique"
+	},
+	{
+		"name": "Fuel Array",
+		"desc": "Looks like it could power something. EXTREMELY unstable...",
+		"stack": "-",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/f/fe/Fuel_Array.png/revision/latest/scale-to-width-down/64?cb=20200129193057",
+		"release": "Base",
+		"rarity": "Equipment",
+		"oneTimeUse": false,
+		"modifiers": "ique"
+	},
+	{
+		"name": "Gnarled Woodsprite",
+		"desc": "Gain a Woodsprite follower that heals for 1.5% of your maximum health/second. Can be sent to an ally to heal them for 10% of their maximum health.",
+		"stack": "15s",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/d/d8/Gnarled_Woodsprite.png/revision/latest/scale-to-width-down/64?cb=20200129193103",
+		"release": "Base",
+		"rarity": "Equipment",
+		"oneTimeUse": false,
+		"modifiers": "heal, HP"
+	},
+	{
+		"name": "Goobo Jr.",
+		"desc": "Spawn a gummy clone that has 300% damage and 300% health. Expires in 30 seconds.",
+		"stack": "100s",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/3/3a/Goobo_Jr..png/revision/latest/scale-to-width-down/64?cb=20220302043343",
+		"release": "Survivors of the Void",
+		"rarity": "Equipment",
+		"oneTimeUse": false,
+		"modifiers": "Damage, heal, HP, Spawn"
+	},
+	{
+		"name": "Gorag's Opus",
+		"desc": "All allies enter a frenzy for 7 seconds. Increases movement speed by 50% and attack speed by 100%.",
+		"stack": "45s",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/5/56/Gorag%27s_Opus.png/revision/latest/scale-to-width-down/64?cb=20200811161829",
+		"release": "Base",
+		"rarity": "Equipment",
+		"oneTimeUse": false,
+		"modifiers": "Attack Speed, Movement"
+	},
+	{
+		"name": "Jade Elephant",
+		"desc": "Gain 500 armor for 5 seconds.",
+		"stack": "45s",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/4/41/Jade_Elephant.png/revision/latest/scale-to-width-down/64?cb=20200129235337",
+		"release": "Base",
+		"rarity": "Equipment",
+		"oneTimeUse": false,
+		"modifiers": "Armor"
+	},
+	{
+		"name": "Milky Chrysalis",
+		"desc": "Sprout wings and fly for 15 seconds. Gain +20% movement speed for the duration.",
+		"stack": "60s",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/e/e3/Milky_Chrysalis.png/revision/latest/scale-to-width-down/64?cb=20200129193119",
+		"release": "Base",
+		"rarity": "Equipment",
+		"oneTimeUse": false,
+		"modifiers": "Movement"
+	},
+	{
+		"name": "Molotov (6-Pack)",
+		"desc": "Throw 6 molotov cocktails that ignites enemies for 500% base damage. Each molotov leaves a burning area for 200% damage per second.",
+		"stack": "45s",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/b/bf/Molotov_%286-Pack%29.png/revision/latest/scale-to-width-down/64?cb=20220302120707",
+		"release": "Survivors of the Void",
+		"rarity": "Equipment",
+		"oneTimeUse": false,
+		"modifiers": "Damageignite, AOE"
+	},
+	{
+		"name": "Ocular HUD",
+		"desc": "Gain +100% Critical Strike Chance for 8 seconds.",
+		"stack": "60s",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/6/68/Ocular_HUD.png/revision/latest/scale-to-width-down/64?cb=20200129193123",
+		"release": "Base",
+		"rarity": "Equipment",
+		"oneTimeUse": false,
+		"modifiers": "Crit"
+	},
+	{
+		"name": "Preon Accumulator",
+		"desc": "Fires preon tendrils, zapping enemies within 35m for up to 600% damage/second. On contact, detonate in an enormous 20m explosion for 4000% damage.",
+		"stack": "140s",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/f/fe/Preon_Accumulator.png/revision/latest/scale-to-width-down/64?cb=20200129193133",
+		"release": "Base",
+		"rarity": "Equipment",
+		"oneTimeUse": false,
+		"modifiers": "Damage, AOE"
+	},
+	{
+		"name": "Primordial Cube",
+		"desc": "Fire a black hole that draws enemies within 30m into its center. Lasts 10 seconds",
+		"stack": "60s",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/d/d9/Primordial_Cube.png/revision/latest/scale-to-width-down/64?cb=20200129193135",
+		"release": "Base",
+		"rarity": "Equipment",
+		"oneTimeUse": false,
+		"modifiers": "AOE"
+	},
+	{
+		"name": "Radar Scanner",
+		"desc": "Reveal all interactables within 500m for 10 seconds.",
+		"stack": "45s",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/7/7f/Radar_Scanner.png/revision/latest/scale-to-width-down/64?cb=20200129193139",
+		"release": "Base",
+		"rarity": "Equipment",
+		"oneTimeUse": false,
+		"modifiers": "AOE"
+	},
+	{
+		"name": "Recycler",
+		"desc": "Transform an Item or Equipment into a different one. Can only be converted into the same tier one time.",
+		"stack": "45s",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/6/67/Recycler.png/revision/latest/scale-to-width-down/64?cb=20200331153330",
+		"release": "Base",
+		"rarity": "Equipment",
+		"oneTimeUse": false,
+		"modifiers": "ique"
+	},
+	{
+		"name": "Remote Caffeinator",
+		"desc": "Request an Eclipse Zero Vending Machine from the UES Safe Travels. Delivery guaranteed in 5 seconds, dealing 2000% damage. Heal up to 3 targets for 25% of their maximum health.",
+		"stack": "60s",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/9/9c/Remote_Caffeinator.png/revision/latest/scale-to-width-down/64?cb=20220304231621",
+		"release": "Survivors of the Void",
+		"rarity": "Equipment",
+		"oneTimeUse": false,
+		"modifiers": "Damage, heal, HP"
+	},
+	{
+		"name": "Royal Capacitor",
+		"desc": "Call down a lightning strike on a targeted monster, dealing 3000% damage and stunning nearby monsters.",
+		"stack": "20s",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/e/ef/Royal_Capacitor.png/revision/latest/scale-to-width-down/64?cb=20200129193145",
+		"release": "Base",
+		"rarity": "Equipment",
+		"oneTimeUse": false,
+		"modifiers": "Damage, Lightning"
+	},
+	{
+		"name": "Sawmerang",
+		"desc": "Throw three large saw blades that slice through enemies for 3x400% damage. Also deals an additional 3x100% damage per second while bleeding enemies. Can strike enemies again on the way back.",
+		"stack": "45s",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/6/62/Sawmerang.png/revision/latest/scale-to-width-down/64?cb=20200331153332",
+		"release": "Base",
+		"rarity": "Equipment",
+		"oneTimeUse": false,
+		"modifiers": "Damage, Bleed"
+	},
+	{
+		"name": "Super Massive Leech",
+		"desc": "Heal for 20% of the damage you deal. Lasts 8 seconds.",
+		"stack": "60s",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/a/ae/Super_Massive_Leech.png/revision/latest/scale-to-width-down/64?cb=20200811161830",
+		"release": "Base",
+		"rarity": "Equipment",
+		"oneTimeUse": false,
+		"modifiers": "Damage, heal, HP"
+	},
+	{
+		"name": "The Back-up",
+		"desc": "Call 4 Strike Drones to fight for you. Lasts 25 seconds.",
+		"stack": "100s",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/3/39/The_Back-up.png/revision/latest/scale-to-width-down/64?cb=20200129193206",
+		"release": "Base",
+		"rarity": "Equipment",
+		"oneTimeUse": false,
+		"modifiers": "Spawn"
+	},
+	{
+		"name": "The Crowdfunder",
+		"desc": "Fires a continuous barrage that deals 100% damage per bullet. Costs $1 per bullet. Cost increases over time.",
+		"stack": "-",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/d/d4/The_Crowdfunder.png/revision/latest/scale-to-width-down/64?cb=20200129193207",
+		"release": "Base",
+		"rarity": "Equipment",
+		"oneTimeUse": false,
+		"modifiers": "Damage"
+	},
+	{
+		"name": "Trophy Hunter's Tricorn",
+		"desc": "Execute any enemy capable of spawning a unique reward, and it will drop that item. Equipment is consumed on use.",
+		"stack": "0s",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/7/72/Trophy_Hunter%27s_Tricorn.png/revision/latest/scale-to-width-down/64?cb=20220302120753",
+		"release": "Survivors of the Void",
+		"rarity": "Equipment",
+		"oneTimeUse": true,
+		"modifiers": "Spawn, Execute, Expendable"
+	},
+	{
+		"name": "Volcanic Egg",
+		"desc": "Turn into a draconic fireball for 5 seconds. Deal 500% damage on impact. Detonates at the end for 800% damage.",
+		"stack": "30s",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/2/2e/Volcanic_Egg.png/revision/latest/scale-to-width-down/64?cb=20200129235350",
+		"release": "Base",
+		"rarity": "Equipment",
+		"oneTimeUse": false,
+		"modifiers": "Damage"
+	},
+	{
+		"name": "Effigy of Grief",
+		"desc": "ALL characters within are slowed by 50% and have their armor reduced by 20. Can place up to 5.",
+		"stack": "15s",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/4/45/Effigy_of_Grief.png/revision/latest/scale-to-width-down/64?cb=20200129193053",
+		"release": "Base",
+		"rarity": "Lunar, Equipment",
+		"oneTimeUse": false,
+		"modifiers": "AOE, Armor, Slow"
+	},
+	{
+		"name": "Glowing Meteorite",
+		"desc": "Rain meteors from the sky, damaging ALL characters for 600% damage per blast. Lasts 20 seconds.",
+		"stack": "140s",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/f/f4/Glowing_Meteorite.png/revision/latest/scale-to-width-down/64?cb=20200129193102",
+		"release": "Base",
+		"rarity": "Lunar, Equipment",
+		"oneTimeUse": false,
+		"modifiers": "Damage"
+	},
+	{
+		"name": "Helfire Tincture",
+		"desc": "Ignite ALL characters within 15m for 12s. Deal 5% of your maximum health/second as burning as damage. The burn is 0.5x stronger on yourself, 0.25x stronger on allies, and 24x stronger on enemies.",
+		"stack": "45s",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/4/4d/Helfire_Tincture.png/revision/latest/scale-to-width-down/64?cb=20200129193109",
+		"release": "Base",
+		"rarity": "Lunar, Equipment",
+		"oneTimeUse": false,
+		"modifiers": "Damageignite, AOE, heal, HP"
+	},
+	{
+		"name": "Spinel Tonic",
+		"desc": "Drink the Tonic, gaining a boost for 20 seconds. Increases damage by +100%. Increases attack speed by +70%. Increases armor by +20. Increases maximum health by +50%. Increases passive health regeneration by +300%. Increases movespeed by +30%.\n\nWhen the Tonic wears off, you have a 20% chance to gain a Tonic Affliction, reducing all of your stats by -5% (-5% per stack).",
+		"stack": "60s",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/2/29/Spinel_Tonic.png/revision/latest/scale-to-width-down/64?cb=20200129193202",
+		"release": "Base",
+		"rarity": "Lunar, Equipment",
+		"oneTimeUse": false,
+		"modifiers": "Damage, heal, HP, Armor, Attack Speed"
+	},
+	{
+		"name": "Her Biting Embrace",
+		"desc": "Become an aspect of ice.",
+		"stack": " Glacial",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/8/8b/Her_Biting_Embrace.png/revision/latest/scale-to-width-down/64?cb=20200129193110",
+		"release": "Base",
+		"rarity": "Elite Equipment",
+		"oneTimeUse": false,
+		"modifiers": "ique"
+	},
+	{
+		"name": "His Reassurance",
+		"desc": "Become an aspect of earth.",
+		"stack": " Mending",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/5/5d/His_Reassurance.png/revision/latest/scale-to-width-down/64?cb=20220304231620",
+		"release": "Survivors of the Void",
+		"rarity": "Elite Equipment",
+		"oneTimeUse": false,
+		"modifiers": "ique"
+	},
+	{
+		"name": "Ifrit's Distinction",
+		"desc": "Become an aspect of fire.",
+		"stack": " Blazing",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/0/08/Ifrit%27s_Distinction.png/revision/latest/scale-to-width-down/64?cb=20200129193112",
+		"release": "Base",
+		"rarity": "Elite Equipment",
+		"oneTimeUse": false,
+		"modifiers": "ique"
+	},
+	{
+		"name": "N'kuhana's Retort",
+		"desc": "Become an aspect of corruption.",
+		"stack": " Malachite",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/9/9b/N%27kuhana%27s_Retort.png/revision/latest/scale-to-width-down/64?cb=20200129193122",
+		"release": "Base",
+		"rarity": "Elite Equipment",
+		"oneTimeUse": false,
+		"modifiers": "ique"
+	},
+	{
+		"name": "Shared Design",
+		"desc": "Become an aspect of perfection.",
+		"stack": " Perfected",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/5/50/Shared_Design.png/revision/latest/scale-to-width-down/64?cb=20210329031824",
+		"release": "Base",
+		"rarity": "Elite Equipment",
+		"oneTimeUse": false,
+		"modifiers": "ique"
+	},
+	{
+		"name": "Silence Between Two Strikes",
+		"desc": "Become an aspect of lightning.",
+		"stack": " Overloading",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/0/0a/Silence_Between_Two_Strikes.png/revision/latest/scale-to-width-down/64?cb=20200129193155",
+		"release": "Base",
+		"rarity": "Elite Equipment",
+		"oneTimeUse": false,
+		"modifiers": "Lightning"
+	},
+	{
+		"name": "Spectral Circlet",
+		"desc": "Become an aspect of incorporeality.",
+		"stack": " Celestine",
+		"imageLink": "https://static.wikia.nocookie.net/riskofrain2_gamepedia_en/images/d/d2/Spectral_Circlet.png/revision/latest/scale-to-width-down/64?cb=20200331152250",
+		"release": "Base",
+		"rarity": "Elite Equipment",
+		"oneTimeUse": false,
+		"modifiers": "ique"
 	}
 ]

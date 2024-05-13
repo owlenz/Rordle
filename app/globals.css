@@ -28,19 +28,20 @@
 }
 
 ::-webkit-scrollbar {
-  width:14px;
+  width: 14px;
 }
 
 ::-webkit-scrollbar-track {
-  background:#0E1013;
+  background: #0E1013;
 }
 
 ::-webkit-scrollbar-thumb {
-  background:#0E1013;
+  background: #0E1013;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #C5B34D; /* Color of the thumb on hover */
+  background: #C5B34D;
+  /* Color of the thumb on hover */
 }
 
 body {
@@ -53,10 +54,11 @@ body {
     text-wrap: balance;
   }
 }
+
 .transition-ring {
-    transition-property: ring-color, ring-offset-color, ring-offset-width, ring-width;
-    transition-duration: 0.2s;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: ring-color, ring-offset-color, ring-offset-width, ring-width;
+  transition-duration: 0.2s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .buttonX {
@@ -69,7 +71,7 @@ body {
   border: 2px solid white;
   outline: 2px solid transparent;
   outline-offset: 10px;
-  transition-property: outline-offset,border;
+  transition-property: outline-offset, border;
   transition-duration: 75ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -78,28 +80,33 @@ body {
   border-color: gray;
   border: 2px solid gray;
   outline: 2px solid white;
-  outline-offset:2px
+  outline-offset: 2px
 }
 
-.green{
+.green {
   -webkit-text-fill-color: white;
   -webkit-text-stroke: 0.5px green;
-      -webkit-font-smoothing: antialiased;
-      background-image: url('/BgUncommon.webp')
+  -webkit-font-smoothing: antialiased;
+  background-image: url('/BgUncommon.webp')
 }
 
 .yellow {
-    -webkit-text-fill-color: white;
+  -webkit-text-fill-color: white;
   -webkit-text-stroke: 0.5px yellow;
-      -webkit-font-smoothing: antialiased;
-      background-image: url('/BgBoss.webp')
-
+  -webkit-font-smoothing: antialiased;
+  background-image: url('/BgBoss.webp')
 }
 
 .red {
-    -webkit-text-fill-color: white;
+  -webkit-text-fill-color: white;
   -webkit-text-stroke: 0.5px red;
-      -webkit-font-smoothing: antialiased;
-      background-image: url('/BgLegendary.webp')
+  -webkit-font-smoothing: antialiased;
+  background-image: url('/BgLegendary.webp')
+}
+
+.rordle {
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1px #4B6077;
+  -webkit-font-smoothing: antialiased;
 
 }

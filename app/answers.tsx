@@ -10,16 +10,17 @@ const Answers = ({ entry, realAnswer }: { entry: Item; realAnswer: Item }) => {
 	delete xdd.imageLink;
 	delete xdd.name;
 	return (
-		<div key={entry.name} className="flex gap-4 text-[18px] text-center">
-			<div className="w-24 h-24 bg-[url('/BgCommon.webp')] bg-no-repeat bg-cover relative flex items-center justify-center">
+		<div className="flex gap-4 text-[18px] text-center">
+			<div className={`w-24 h-24 bg-[url('/Bg${entry.rarity}.webp')]  bg-no-repeat bg-cover relative flex items-center justify-center`}>
 				<Image alt={entry.name} height={70} width={70} src={entry.imageLink} />
 				<Edge />
 			</div>
 			{Object.entries(xdd).map(([key, value]) => {
 				let color;
-				if (value === realAnswer[key]) {
+				const answerKey = realAnswer[key].toString()
+				if (value === answerKey) {
 					color = "green";
-				} else if (realAnswer[key].includes(value) && key !== "rarity") {
+				} else if (answerKey && answerKey.includes(value) && key !== "oneTimeUse") {
 					color = "yellow";
 				} else {
 					color = "red";
