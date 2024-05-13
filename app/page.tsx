@@ -58,6 +58,7 @@ const Home = () => {
 
 	const submitAnswer = (name: string) => {
 		setFocus(false);
+		//@ts-ignore
 		inputRef.current?.blur();
 		setSearch("");
 		const newAnswers = answers.concat(
@@ -68,7 +69,7 @@ const Home = () => {
 		let newHP = hp;
 		let newGameState: gameStateT = gameState;
 
-		if (compareObjects(newAnswers[newAnswers.length - 1], realAnswer)) {
+		if (compareObjects(newAnswers[newAnswers.length - 1], realAnswer as Item)) {
 			newGameState = "won";
 			setGameState(newGameState);
 			// win login

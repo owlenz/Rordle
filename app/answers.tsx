@@ -1,11 +1,11 @@
 import Edge from "./components/edge";
 import Image from "next/image";
 import React from "react";
-import { Item } from "./types";
+import { Item, goodEntry } from "./types";
 import { compareObjects } from "@/utils/xdd";
 
 const Answers = ({ entry, realAnswer }: { entry: Item; realAnswer: Item }) => {
-	const xdd = Object.assign({}, entry);
+	const xdd: goodEntry = Object.assign({}, entry);
 	delete xdd.desc;
 	delete xdd.imageLink;
 	delete xdd.name;
@@ -17,6 +17,7 @@ const Answers = ({ entry, realAnswer }: { entry: Item; realAnswer: Item }) => {
 			</div>
 			{Object.entries(xdd).map(([key, value]) => {
 				let color;
+				// @ts-ignore
 				const answerKey = realAnswer[key].toString()
 				if (value === answerKey) {
 					color = "green";

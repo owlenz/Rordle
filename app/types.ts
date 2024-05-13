@@ -10,9 +10,10 @@ export interface Item {
 }
 
 export interface goodEntry {
-	name: string;
+	name?: string;
+	desc?: string;
 	stack: string;
-	imageLink: string;
+	imageLink?: string;
 	release: string;
 	rarity: string;
 	oneTimeUse: boolean;
