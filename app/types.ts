@@ -6,7 +6,7 @@ export interface Item {
 	release: string;
 	rarity: string;
 	oneTimeUse: boolean;
-	modifiers: string;
+	modifiers: Array<string>;
 }
 
 export interface goodEntry {
@@ -17,5 +17,8 @@ export interface goodEntry {
 	release: string;
 	rarity: string;
 	oneTimeUse: boolean;
-	modifiers: string;
+	modifiers: Array<string>;
 }
+
+export type Color = "red" | "yellow" | "green"
+

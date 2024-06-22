@@ -8,7 +8,7 @@ const HealthBar = ({ value }: { value: number }) => {
 				style={{ width: `${value}%` }}
 			></div>
 			<span className="z-1 w-full text-center absolute font-bold">
-				{value}/100
+				{value}/120
 			</span>
 		</div>
 	);

@@ -8,13 +8,24 @@ const todayAnswer = () => {
 	answer = data[Math.floor(Math.random() * data.length)];
 }
 
-todayAnswer()
 
-console.log("xdd")
+todayAnswer();
+const twentyFourHours = 86400000;
+const now: any = new Date();
+let eta_ms: number = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 24, 0, 0, 0).getTime() - now;
 
-const dayMS = 24 * 60 * 60 * 1000
-setInterval(todayAnswer, dayMS)
+if (eta_ms < 0) {
+	eta_ms += twentyFourHours;
+}
+
+setTimeout(function() {
+	todayAnswer();
+	setInterval(todayAnswer, twentyFourHours);
+}, eta_ms);
+
+const dateToday = new Date().toDateString()
 
 export const GET = async () => {
-	return new Response(JSON.stringify(answer))
+	return new Response(JSON.stringify({ ...answer, date: dateToday }))
 }
+

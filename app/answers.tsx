@@ -1,8 +1,9 @@
-import Edge from "./components/edge";
+import Edge from "@/components/edge";
 import Image from "next/image";
 import React from "react";
-import { Item, goodEntry } from "./types";
-import { compareObjects } from "@/utils/xdd";
+import { Color, Item, goodEntry } from "./types";
+import { compareArrays, compareObjects } from "@/utils/xdd";
+
 
 const Answers = ({ entry, realAnswer }: { entry: Item; realAnswer: Item }) => {
 	const xdd: goodEntry = Object.assign({}, entry);
@@ -16,16 +17,19 @@ const Answers = ({ entry, realAnswer }: { entry: Item; realAnswer: Item }) => {
 				<Edge />
 			</div>
 			{Object.entries(xdd).map(([key, value]) => {
-				let color;
+				let color: Color;
 				// @ts-ignore
 				const answerKey = realAnswer[key].toString()
-				if (value === answerKey) {
-					color = "green";
-				} else if (answerKey && answerKey.includes(value) && key !== "oneTimeUse") {
-					color = "yellow";
+				if (key === "modifiers") {
+					color = compareArrays<string>(xdd[key], realAnswer.modifiers)
 				} else {
-					color = "red";
+					if (value === answerKey) {
+						color = "green";
+					} else {
+						color = "red";
+					}
 				}
+
 				return (
 					<div
 						className={
@@ -33,7 +37,9 @@ const Answers = ({ entry, realAnswer }: { entry: Item; realAnswer: Item }) => {
 							color
 						}
 					>
-						<span className="z-10">{value.toString()}</span>
+						{key === "modifiers" ? <span>{value.map((element: string) => {
+							return element + " "
+						})}</span> : <span className="z-10">{value.toString()}</span>}
 						<Edge />
 					</div>
 				);
@@ -52,16 +58,19 @@ const AnswersBox = ({
 	return answers.length &&
 		!compareObjects(answers[answers.length - 1], realAnswer) ? (
 		<div className="bg-black bg-opacity-70 p-2 text-white box w-full flex flex-col gap-5 relative mt-10">
-			<div className="flex gap-4 font-bold text-[20px]">
+			<div className="flex gap-4 font-bold text-[18px]">
 				<span className="w-24 text-center">Item</span>
 				<span className="w-24 text-center">Rarity</span>
 				<span className="w-24 text-center">Modifiers</span>
 				<span className="w-24 text-center">Stacking</span>
 				<span className="w-24 text-center">Release</span>
+				<span className="w-24 text-center">Modifiers</span>
 			</div>
-			{answers.map((entry, index) => (
-				<Answers key={index} realAnswer={realAnswer} entry={entry} />
-			))}
+			{answers.map((entry, index) => {
+				return (
+					<Answers key={index} realAnswer={realAnswer} entry={entry} />
+				)
+			})}
 		</div>
 	) : null;
 };

@@ -7,7 +7,9 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": "Damage"
+		"modifiers": [
+			"Damage"
+		]
 	},
 	{
 		"name": "Backup Magazine",
@@ -17,7 +19,9 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": "Skills"
+		"modifiers": [
+			"Skills"
+		]
 	},
 	{
 		"name": "Bison Steak",
@@ -27,7 +31,10 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": "heal, HP"
+		"modifiers": [
+			"Heal",
+			"HP"
+		]
 	},
 	{
 		"name": "Bundle of Fireworks",
@@ -37,7 +44,9 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": "Damage"
+		"modifiers": [
+			"Damage"
+		]
 	},
 	{
 		"name": "Bustling Fungus",
@@ -47,7 +56,11 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": "AOE, heal, HP"
+		"modifiers": [
+			"AOE",
+			"Heal",
+			"HP"
+		]
 	},
 	{
 		"name": "Cautious Slug",
@@ -57,7 +70,11 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": "heal, HP"
+		"modifiers": [
+			"Heal",
+			"HP",
+			"Health Regen"
+		]
 	},
 	{
 		"name": "Crowbar",
@@ -67,7 +84,11 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": "Damage, heal, HP"
+		"modifiers": [
+			"Damage",
+			"Heal",
+			"HP"
+		]
 	},
 	{
 		"name": "Delicate Watch",
@@ -77,7 +98,11 @@
 		"release": "Survivors of the Void",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": "Damage, heal, HP"
+		"modifiers": [
+			"Damage",
+			"Heal",
+			"HP"
+		]
 	},
 	{
 		"name": "Energy Drink",
@@ -87,7 +112,9 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": "Sprint"
+		"modifiers": [
+			"Sprint Speed"
+		]
 	},
 	{
 		"name": "Focus Crystal",
@@ -97,7 +124,10 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": "Damage, AOE"
+		"modifiers": [
+			"Damage",
+			"AOE"
+		]
 	},
 	{
 		"name": "Gasoline",
@@ -107,7 +137,12 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": "Damageignite, AOE, on-kill effect"
+		"modifiers": [
+			"Damage",
+			"Ignite",
+			"AOE",
+			"on-kill effect"
+		]
 	},
 	{
 		"name": "Item Scrap, White",
@@ -117,7 +152,9 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": true,
-		"modifiers": "Expendable"
+		"modifiers": [
+			"Expendable"
+		]
 	},
 	{
 		"name": "Lens-Maker's Glasses",
@@ -127,7 +164,10 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": "Damage, Crit"
+		"modifiers": [
+			"Damage",
+			"Crit"
+		]
 	},
 	{
 		"name": "Medkit",
@@ -137,7 +177,10 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": "heal, HP"
+		"modifiers": [
+			"Heal",
+			"HP"
+		]
 	},
 	{
 		"name": "Mocha",
@@ -147,7 +190,10 @@
 		"release": "Survivors of the Void",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": "Attack Speed, Movement"
+		"modifiers": [
+			"Attack Speed",
+			"Movement Speed"
+		]
 	},
 	{
 		"name": "Monster Tooth",
@@ -157,7 +203,12 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": "heal, HP, Spawn, on-kill effect"
+		"modifiers": [
+			"Heal",
+			"HP",
+			"Spawn",
+			"on-kill effect"
+		]
 	},
 	{
 		"name": "Oddly-shaped Opal",
@@ -167,7 +218,9 @@
 		"release": "Survivors of the Void",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": "Armor"
+		"modifiers": [
+			"Armor"
+		]
 	},
 	{
 		"name": "Paul's Goat Hoof",
@@ -177,7 +230,9 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": "Movement"
+		"modifiers": [
+			"Movement Speed"
+		]
 	},
 	{
 		"name": "Personal Shield Generator",
@@ -187,7 +242,11 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": "heal, HP, Shield"
+		"modifiers": [
+			"Heal",
+			"HP",
+			"Shield"
+		]
 	},
 	{
 		"name": "Power Elixir",
@@ -197,7 +256,12 @@
 		"release": "Survivors of the Void",
 		"rarity": "common",
 		"oneTimeUse": true,
-		"modifiers": "Damage, heal, HP, Expendable"
+		"modifiers": [
+			"Damage",
+			"Heal",
+			"HP",
+			"Expendable"
+		]
 	},
 	{
 		"name": "Repulsion Armor Plate",
@@ -207,7 +271,9 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": "Damage"
+		"modifiers": [
+			"Damage"
+		]
 	},
 	{
 		"name": "Roll of Pennies",
@@ -217,7 +283,9 @@
 		"release": "Survivors of the Void",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": "Damage"
+		"modifiers": [
+			"Damage"
+		]
 	},
 	{
 		"name": "Rusted Key",
@@ -227,7 +295,9 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": true,
-		"modifiers": "Expendable"
+		"modifiers": [
+			"Expendable"
+		]
 	},
 	{
 		"name": "Soldier's Syringe",
@@ -237,7 +307,9 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": "Attack Speed"
+		"modifiers": [
+			"Attack Speed"
+		]
 	},
 	{
 		"name": "Sticky Bomb",
@@ -247,7 +319,10 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": "Damage, on-hit effect"
+		"modifiers": [
+			"Damage",
+			"on-hit effect"
+		]
 	},
 	{
 		"name": "Stun Grenade",
@@ -257,7 +332,9 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": "on-hit effect"
+		"modifiers": [
+			"on-hit effect"
+		]
 	},
 	{
 		"name": "Topaz Brooch",
@@ -267,7 +344,11 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": "heal, HP, on-kill effect"
+		"modifiers": [
+			"Heal",
+			"HP",
+			"on-kill effect"
+		]
 	},
 	{
 		"name": "Tougher Times",
@@ -277,7 +358,9 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": "Damage"
+		"modifiers": [
+			"Damage"
+		]
 	},
 	{
 		"name": "Tri-Tip Dagger",
@@ -287,7 +370,10 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": "Damage, Bleed"
+		"modifiers": [
+			"Damage",
+			"Bleed"
+		]
 	},
 	{
 		"name": "Warbanner",
@@ -297,7 +383,11 @@
 		"release": "Base",
 		"rarity": "common",
 		"oneTimeUse": false,
-		"modifiers": "AOE, Movement, Teleporter"
+		"modifiers": [
+			"AOE",
+			"Movement Speed",
+			"Teleporter"
+		]
 	},
 	{
 		"name": "AtG Missile Mk. 1",
@@ -307,7 +397,10 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "Damage, Missiles"
+		"modifiers": [
+			"Damage",
+			"Missiles"
+		]
 	},
 	{
 		"name": "Bandolier",
@@ -317,7 +410,11 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "Skills, Cooldowns, on-kill effect"
+		"modifiers": [
+			"Skills",
+			"Cooldowns",
+			"on-kill effect"
+		]
 	},
 	{
 		"name": "Berzerker's Pauldron",
@@ -327,7 +424,12 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "AOE, Attack Speed, Movement, on-kill effect"
+		"modifiers": [
+			"AOE",
+			"Attack Speed",
+			"Movement Speed",
+			"on-kill effect"
+		]
 	},
 	{
 		"name": "Chronobauble",
@@ -337,7 +439,11 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "Movement, Slow, on-hit effect"
+		"modifiers": [
+			"Movement Speed",
+			"Slow",
+			"on-hit effect"
+		]
 	},
 	{
 		"name": "Death Mark",
@@ -347,7 +453,9 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "Damage"
+		"modifiers": [
+			"Damage"
+		]
 	},
 	{
 		"name": "Fuel Cell",
@@ -357,7 +465,9 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "Cooldowns"
+		"modifiers": [
+			"Cooldowns"
+		]
 	},
 	{
 		"name": "Ghor's Tome",
@@ -367,7 +477,9 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "on-kill effect"
+		"modifiers": [
+			"on-kill effect"
+		]
 	},
 	{
 		"name": "Harvester's Scythe",
@@ -377,7 +489,11 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "heal, HP, Crit"
+		"modifiers": [
+			"Heal",
+			"HP",
+			"Crit"
+		]
 	},
 	{
 		"name": "Hopoo Feather",
@@ -387,7 +503,9 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "ique"
+		"modifiers": [
+			"Unique"
+		]
 	},
 	{
 		"name": "Hunter's Harpoon",
@@ -397,7 +515,10 @@
 		"release": "Survivors of the Void",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "Movement, on-kill effect"
+		"modifiers": [
+			"Movement Speed",
+			"on-kill effect"
+		]
 	},
 	{
 		"name": "Ignition Tank",
@@ -407,7 +528,10 @@
 		"release": "Survivors of the Void",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "Damageignite"
+		"modifiers": [
+			"Damage",
+			"Ignite"
+		]
 	},
 	{
 		"name": "Infusion",
@@ -417,7 +541,11 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "heal, HP, on-kill effect"
+		"modifiers": [
+			"Heal",
+			"HP",
+			"on-kill effect"
+		]
 	},
 	{
 		"name": "Item Scrap, Green",
@@ -427,7 +555,9 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": true,
-		"modifiers": "Expendable"
+		"modifiers": [
+			"Expendable"
+		]
 	},
 	{
 		"name": "Kjaro's Band",
@@ -437,7 +567,9 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "Damage"
+		"modifiers": [
+			"Damage"
+		]
 	},
 	{
 		"name": "Leeching Seed",
@@ -447,7 +579,11 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "Damage, heal, HP"
+		"modifiers": [
+			"Damage",
+			"Heal",
+			"HP"
+		]
 	},
 	{
 		"name": "Lepton Daisy",
@@ -457,7 +593,11 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "heal, HP, Teleporter"
+		"modifiers": [
+			"Heal",
+			"HP",
+			"Teleporter"
+		]
 	},
 	{
 		"name": "Old Guillotine",
@@ -467,7 +607,12 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "heal, HP, Execute, Elite"
+		"modifiers": [
+			"Heal",
+			"HP",
+			"Execute",
+			"Elite"
+		]
 	},
 	{
 		"name": "Old War Stealthkit",
@@ -477,7 +622,11 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "heal, HP, Movement"
+		"modifiers": [
+			"Heal",
+			"HP",
+			"Movement Speed"
+		]
 	},
 	{
 		"name": "Predatory Instincts",
@@ -487,7 +636,10 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "Attack Speed, Crit"
+		"modifiers": [
+			"Attack Speed",
+			"Crit"
+		]
 	},
 	{
 		"name": "Razorwire",
@@ -497,7 +649,9 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "Damage"
+		"modifiers": [
+			"Damage"
+		]
 	},
 	{
 		"name": "Red Whip",
@@ -507,7 +661,9 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "Movement"
+		"modifiers": [
+			"Movement Speed"
+		]
 	},
 	{
 		"name": "Regenerating Scrap",
@@ -517,7 +673,9 @@
 		"release": "Survivors of the Void",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "ique"
+		"modifiers": [
+			"Health Regen"
+		]
 	},
 	{
 		"name": "Rose Buckler",
@@ -527,7 +685,10 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "Armor, Sprint"
+		"modifiers": [
+			"Armor",
+			"Sprint Speed"
+		]
 	},
 	{
 		"name": "Runald's Band",
@@ -537,7 +698,10 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "Damage, Slow"
+		"modifiers": [
+			"Damage",
+			"Slow"
+		]
 	},
 	{
 		"name": "Shipping Request Form",
@@ -547,7 +711,9 @@
 		"release": "Survivors of the Void",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "ique"
+		"modifiers": [
+			"Unique"
+		]
 	},
 	{
 		"name": "Shuriken",
@@ -557,7 +723,10 @@
 		"release": "Survivors of the Void",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "Damage, Skills"
+		"modifiers": [
+			"Damage",
+			"Skills"
+		]
 	},
 	{
 		"name": "Squid Polyp",
@@ -567,7 +736,10 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "Attack Speed, Spawn"
+		"modifiers": [
+			"Attack Speed",
+			"Spawn"
+		]
 	},
 	{
 		"name": "Ukulele",
@@ -577,7 +749,11 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "Damage, AOE, Lightning"
+		"modifiers": [
+			"Damage",
+			"AOE",
+			"Lightning"
+		]
 	},
 	{
 		"name": "War Horn",
@@ -587,7 +763,9 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "Attack Speed"
+		"modifiers": [
+			"Attack Speed"
+		]
 	},
 	{
 		"name": "Wax Quail",
@@ -597,7 +775,9 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "Sprint"
+		"modifiers": [
+			"Sprint Speed"
+		]
 	},
 	{
 		"name": "Will-o'-the-wisp",
@@ -607,7 +787,11 @@
 		"release": "Base",
 		"rarity": "Uncommon",
 		"oneTimeUse": false,
-		"modifiers": "Damage, Spawn, on-kill effect"
+		"modifiers": [
+			"Damage",
+			"Spawn",
+			"on-kill effect"
+		]
 	},
 	{
 		"name": "57 Leaf Clover",
@@ -617,7 +801,9 @@
 		"release": "Base",
 		"rarity": "Legendary",
 		"oneTimeUse": false,
-		"modifiers": "ique"
+		"modifiers": [
+			"Unique"
+		]
 	},
 	{
 		"name": "Aegis",
@@ -627,7 +813,9 @@
 		"release": "Base",
 		"rarity": "Legendary",
 		"oneTimeUse": false,
-		"modifiers": "heal, HP"
+		"modifiers": [
+			"Heal"
+		]
 	},
 	{
 		"name": "Alien Head",
@@ -637,7 +825,10 @@
 		"release": "Base",
 		"rarity": "Legendary",
 		"oneTimeUse": false,
-		"modifiers": "Skills, Cooldowns"
+		"modifiers": [
+			"Skills",
+			"Cooldowns"
+		]
 	},
 	{
 		"name": "Ben's Raincoat",
@@ -647,7 +838,10 @@
 		"release": "Survivors of the Void",
 		"rarity": "Legendary",
 		"oneTimeUse": false,
-		"modifiers": "heal, HP"
+		"modifiers": [
+			"Heal",
+			"HP"
+		]
 	},
 	{
 		"name": "Bottled Chaos",
@@ -657,7 +851,9 @@
 		"release": "Survivors of the Void",
 		"rarity": "Legendary",
 		"oneTimeUse": false,
-		"modifiers": "ique"
+		"modifiers": [
+			"Unique"
+		]
 	},
 	{
 		"name": "Brainstalks",
@@ -667,7 +863,12 @@
 		"release": "Base",
 		"rarity": "Legendary",
 		"oneTimeUse": false,
-		"modifiers": "Skills, Cooldowns, Elite, on-kill effect"
+		"modifiers": [
+			"Skills",
+			"Cooldowns",
+			"Elite",
+			"on-kill effect"
+		]
 	},
 	{
 		"name": "Brilliant Behemoth",
@@ -677,7 +878,9 @@
 		"release": "Base",
 		"rarity": "Legendary",
 		"oneTimeUse": false,
-		"modifiers": "Damage"
+		"modifiers": [
+			"Damage"
+		]
 	},
 	{
 		"name": "Ceremonial Dagger",
@@ -687,7 +890,10 @@
 		"release": "Base",
 		"rarity": "Legendary",
 		"oneTimeUse": false,
-		"modifiers": "Damage, on-kill effect"
+		"modifiers": [
+			"Damage",
+			"on-kill effect"
+		]
 	},
 	{
 		"name": "Defensive Microbots",
@@ -697,7 +903,10 @@
 		"release": "Base",
 		"rarity": "Legendary",
 		"oneTimeUse": false,
-		"modifiers": "AOE, Attack Speed"
+		"modifiers": [
+			"AOE",
+			"Attack Speed"
+		]
 	},
 	{
 		"name": "Dio's Best Friend",
@@ -707,7 +916,9 @@
 		"release": "Base",
 		"rarity": "Legendary",
 		"oneTimeUse": true,
-		"modifiers": "Expendable"
+		"modifiers": [
+			"Expendable"
+		]
 	},
 	{
 		"name": "Frost Relic",
@@ -717,7 +928,11 @@
 		"release": "Base",
 		"rarity": "Legendary",
 		"oneTimeUse": false,
-		"modifiers": "Damage, Slow, on-kill effect"
+		"modifiers": [
+			"Damage",
+			"Slow",
+			"on-kill effect"
+		]
 	},
 	{
 		"name": "H3AD-5T v2",
@@ -727,7 +942,10 @@
 		"release": "Base",
 		"rarity": "Legendary",
 		"oneTimeUse": false,
-		"modifiers": "Damage, on-hit effect"
+		"modifiers": [
+			"Damage",
+			"on-hit effect"
+		]
 	},
 	{
 		"name": "Happiest Mask",
@@ -737,7 +955,11 @@
 		"release": "Base",
 		"rarity": "Legendary",
 		"oneTimeUse": false,
-		"modifiers": "Damage, Spawn, on-kill effect"
+		"modifiers": [
+			"Damage",
+			"Spawn",
+			"on-kill effect"
+		]
 	},
 	{
 		"name": "Hardlight Afterburner",
@@ -747,7 +969,10 @@
 		"release": "Base",
 		"rarity": "Legendary",
 		"oneTimeUse": false,
-		"modifiers": "Skills, Cooldowns"
+		"modifiers": [
+			"Skills",
+			"Cooldowns"
+		]
 	},
 	{
 		"name": "Interstellar Desk Plant",
@@ -757,7 +982,12 @@
 		"release": "Base",
 		"rarity": "Legendary",
 		"oneTimeUse": false,
-		"modifiers": "AOE, heal, HP, on-kill effect"
+		"modifiers": [
+			"AOE",
+			"Heal",
+			"HP",
+			"on-kill effect"
+		]
 	},
 	{
 		"name": "Item Scrap, Red",
@@ -767,7 +997,9 @@
 		"release": "Base",
 		"rarity": "Legendary",
 		"oneTimeUse": true,
-		"modifiers": "Expendable"
+		"modifiers": [
+			"Expendable"
+		]
 	},
 	{
 		"name": "Laser Scope",
@@ -777,7 +1009,10 @@
 		"release": "Survivors of the Void",
 		"rarity": "Legendary",
 		"oneTimeUse": false,
-		"modifiers": "Damage, Crit"
+		"modifiers": [
+			"Damage",
+			"Crit"
+		]
 	},
 	{
 		"name": "N'kuhana's Opinion",
@@ -787,7 +1022,11 @@
 		"release": "Base",
 		"rarity": "Legendary",
 		"oneTimeUse": false,
-		"modifiers": "Damage, heal, HP"
+		"modifiers": [
+			"Damage",
+			"Heal",
+			"HP"
+		]
 	},
 	{
 		"name": "Pocket I.C.B.M.",
@@ -797,7 +1036,10 @@
 		"release": "Survivors of the Void",
 		"rarity": "Legendary",
 		"oneTimeUse": false,
-		"modifiers": "Damage, Missiles"
+		"modifiers": [
+			"Damage",
+			"Missiles"
+		]
 	},
 	{
 		"name": "Rejuvenation Rack",
@@ -807,7 +1049,9 @@
 		"release": "Base",
 		"rarity": "Legendary",
 		"oneTimeUse": false,
-		"modifiers": "heal, HP"
+		"modifiers": [
+			"Heal"
+		]
 	},
 	{
 		"name": "Resonance Disc",
@@ -817,7 +1061,10 @@
 		"release": "Base",
 		"rarity": "Legendary",
 		"oneTimeUse": false,
-		"modifiers": "Damage, on-kill effect"
+		"modifiers": [
+			"Damage",
+			"on-kill effect"
+		]
 	},
 	{
 		"name": "Sentient Meat Hook",
@@ -827,7 +1074,10 @@
 		"release": "Base",
 		"rarity": "Legendary",
 		"oneTimeUse": false,
-		"modifiers": "Damage, on-hit effect"
+		"modifiers": [
+			"Damage",
+			"on-hit effect"
+		]
 	},
 	{
 		"name": "Shattering Justice",
@@ -837,7 +1087,10 @@
 		"release": "Base",
 		"rarity": "Legendary",
 		"oneTimeUse": false,
-		"modifiers": "Armor, on-hit effect"
+		"modifiers": [
+			"Armor",
+			"on-hit effect"
+		]
 	},
 	{
 		"name": "Soulbound Catalyst",
@@ -847,7 +1100,9 @@
 		"release": "Base",
 		"rarity": "Legendary",
 		"oneTimeUse": false,
-		"modifiers": "Cooldowns"
+		"modifiers": [
+			"Cooldowns"
+		]
 	},
 	{
 		"name": "Spare Drone Parts",
@@ -857,7 +1112,14 @@
 		"release": "Survivors of the Void",
 		"rarity": "Legendary",
 		"oneTimeUse": false,
-		"modifiers": "Damage, Attack Speed, Spawn, Cooldowns, Missiles, on-hit effect"
+		"modifiers": [
+			"Damage",
+			"Attack Speed",
+			"Spawn",
+			"Cooldowns",
+			"Missiles",
+			"on-hit effect"
+		]
 	},
 	{
 		"name": "Symbiotic Scorpion",
@@ -867,7 +1129,10 @@
 		"release": "Survivors of the Void",
 		"rarity": "Legendary",
 		"oneTimeUse": false,
-		"modifiers": "Armor, on-hit effect"
+		"modifiers": [
+			"Armor",
+			"on-hit effect"
+		]
 	},
 	{
 		"name": "Unstable Tesla Coil",
@@ -877,7 +1142,10 @@
 		"release": "Base",
 		"rarity": "Legendary",
 		"oneTimeUse": false,
-		"modifiers": "Damage, Lightning"
+		"modifiers": [
+			"Damage",
+			"Lightning"
+		]
 	},
 	{
 		"name": "Wake of Vultures",
@@ -887,7 +1155,9 @@
 		"release": "Base",
 		"rarity": "Legendary",
 		"oneTimeUse": false,
-		"modifiers": "Elite"
+		"modifiers": [
+			"Elite"
+		]
 	},
 	{
 		"name": "Artifact Key",
@@ -897,7 +1167,9 @@
 		"release": "Base",
 		"rarity": "Boss / Planet",
 		"oneTimeUse": false,
-		"modifiers": "ique"
+		"modifiers": [
+			"Unique"
+		]
 	},
 	{
 		"name": "Charged Perforator",
@@ -907,7 +1179,11 @@
 		"release": "Base",
 		"rarity": "Boss / Planet",
 		"oneTimeUse": false,
-		"modifiers": "Damage, Lightning, on-hit effect"
+		"modifiers": [
+			"Damage",
+			"Lightning",
+			"on-hit effect"
+		]
 	},
 	{
 		"name": "Defense Nucleus",
@@ -917,7 +1193,14 @@
 		"release": "Base",
 		"rarity": "Boss / Planet",
 		"oneTimeUse": false,
-		"modifiers": "Damage, heal, HP, Spawn, Elite, on-kill effect"
+		"modifiers": [
+			"Damage",
+			"Heal",
+			"HP",
+			"Spawn",
+			"Elite",
+			"on-kill effect"
+		]
 	},
 	{
 		"name": "Empathy Cores",
@@ -927,7 +1210,10 @@
 		"release": "Base",
 		"rarity": "Boss / Planet",
 		"oneTimeUse": false,
-		"modifiers": "Damage, Spawn"
+		"modifiers": [
+			"Damage",
+			"Spawn"
+		]
 	},
 	{
 		"name": "Genesis Loop",
@@ -937,7 +1223,11 @@
 		"release": "Base",
 		"rarity": "Boss / Planet",
 		"oneTimeUse": false,
-		"modifiers": "Damage, heal, HP"
+		"modifiers": [
+			"Damage",
+			"Heal",
+			"HP"
+		]
 	},
 	{
 		"name": "Halcyon Seed",
@@ -947,7 +1237,13 @@
 		"release": "Base",
 		"rarity": "Boss / Planet",
 		"oneTimeUse": false,
-		"modifiers": "Damage, heal, HP, Spawn, Teleporter"
+		"modifiers": [
+			"Damage",
+			"Heal",
+			"HP",
+			"Spawn",
+			"Teleporter"
+		]
 	},
 	{
 		"name": "Irradiant Pearl",
@@ -957,7 +1253,9 @@
 		"release": "Base",
 		"rarity": "Boss / Planet",
 		"oneTimeUse": false,
-		"modifiers": "ique"
+		"modifiers": [
+			"Unique"
+		]
 	},
 	{
 		"name": "Item Scrap, Yellow",
@@ -967,7 +1265,9 @@
 		"release": "Base",
 		"rarity": "Boss / Planet",
 		"oneTimeUse": true,
-		"modifiers": "Expendable"
+		"modifiers": [
+			"Expendable"
+		]
 	},
 	{
 		"name": "Little Disciple",
@@ -977,7 +1277,11 @@
 		"release": "Base",
 		"rarity": "Boss / Planet",
 		"oneTimeUse": false,
-		"modifiers": "Damage, Movement, Sprint"
+		"modifiers": [
+			"Damage",
+			"Movement Speed",
+			"Sprint Speed"
+		]
 	},
 	{
 		"name": "Mired Urn",
@@ -987,7 +1291,11 @@
 		"release": "Base",
 		"rarity": "Boss / Planet",
 		"oneTimeUse": false,
-		"modifiers": "Damage, AOE, heal, HP"
+		"modifiers": [
+			"Damage",
+			"AOE",
+			"Heal"
+		]
 	},
 	{
 		"name": "Molten Perforator",
@@ -997,7 +1305,10 @@
 		"release": "Base",
 		"rarity": "Boss / Planet",
 		"oneTimeUse": false,
-		"modifiers": "Damage, on-hit effect"
+		"modifiers": [
+			"Damage",
+			"on-hit effect"
+		]
 	},
 	{
 		"name": "Pearl",
@@ -1007,7 +1318,10 @@
 		"release": "Base",
 		"rarity": "Boss / Planet",
 		"oneTimeUse": false,
-		"modifiers": "heal, HP"
+		"modifiers": [
+			"Heal",
+			"HP"
+		]
 	},
 	{
 		"name": "Planula",
@@ -1017,7 +1331,10 @@
 		"release": "Base",
 		"rarity": "Boss / Planet",
 		"oneTimeUse": false,
-		"modifiers": "Damage, heal, HP"
+		"modifiers": [
+			"Damage",
+			"Heal"
+		]
 	},
 	{
 		"name": "Queen's Gland",
@@ -1027,7 +1344,12 @@
 		"release": "Base",
 		"rarity": "Boss / Planet",
 		"oneTimeUse": false,
-		"modifiers": "Damage, heal, HP, Spawn"
+		"modifiers": [
+			"Damage",
+			"Heal",
+			"HP",
+			"Spawn"
+		]
 	},
 	{
 		"name": "Shatterspleen",
@@ -1037,7 +1359,13 @@
 		"release": "Base",
 		"rarity": "Boss / Planet",
 		"oneTimeUse": false,
-		"modifiers": "Damage, heal, HP, Bleed, Crit"
+		"modifiers": [
+			"Damage",
+			"Heal",
+			"HP",
+			"Bleed",
+			"Crit"
+		]
 	},
 	{
 		"name": "Titanic Knurl",
@@ -1047,7 +1375,11 @@
 		"release": "Base",
 		"rarity": "Boss / Planet",
 		"oneTimeUse": false,
-		"modifiers": "heal, HP"
+		"modifiers": [
+			"Heal",
+			"HP",
+			"Health Regen"
+		]
 	},
 	{
 		"name": "Beads of Fealty",
@@ -1057,7 +1389,9 @@
 		"release": "Base",
 		"rarity": "Lunar",
 		"oneTimeUse": false,
-		"modifiers": "ique"
+		"modifiers": [
+			"Unique"
+		]
 	},
 	{
 		"name": "Brittle Crown",
@@ -1067,7 +1401,12 @@
 		"release": "Base",
 		"rarity": "Lunar",
 		"oneTimeUse": false,
-		"modifiers": "Damage, heal, HP, on-hit effect"
+		"modifiers": [
+			"Damage",
+			"Heal",
+			"HP",
+			"on-hit effect"
+		]
 	},
 	{
 		"name": "Corpsebloom",
@@ -1077,7 +1416,10 @@
 		"release": "Base",
 		"rarity": "Lunar",
 		"oneTimeUse": false,
-		"modifiers": "heal, HP"
+		"modifiers": [
+			"Heal",
+			"HP"
+		]
 	},
 	{
 		"name": "Defiant Gouge",
@@ -1087,7 +1429,9 @@
 		"release": "Base",
 		"rarity": "Lunar",
 		"oneTimeUse": false,
-		"modifiers": "Spawn"
+		"modifiers": [
+			"Spawn"
+		]
 	},
 	{
 		"name": "Egocentrism",
@@ -1097,7 +1441,9 @@
 		"release": "Survivors of the Void",
 		"rarity": "Lunar",
 		"oneTimeUse": false,
-		"modifiers": "Damage"
+		"modifiers": [
+			"Damage"
+		]
 	},
 	{
 		"name": "Essence of Heresy",
@@ -1107,7 +1453,10 @@
 		"release": "Base",
 		"rarity": "Lunar",
 		"oneTimeUse": false,
-		"modifiers": "Damage, Skills"
+		"modifiers": [
+			"Damage",
+			"Skills"
+		]
 	},
 	{
 		"name": "Eulogy Zero",
@@ -1117,7 +1466,9 @@
 		"release": "Survivors of the Void",
 		"rarity": "Lunar",
 		"oneTimeUse": false,
-		"modifiers": "ique"
+		"modifiers": [
+			"Unique"
+		]
 	},
 	{
 		"name": "Focused Convergence",
@@ -1127,7 +1478,10 @@
 		"release": "Base",
 		"rarity": "Lunar",
 		"oneTimeUse": false,
-		"modifiers": "AOE, Teleporter"
+		"modifiers": [
+			"AOE",
+			"Teleporter"
+		]
 	},
 	{
 		"name": "Gesture of the Drowned",
@@ -1137,7 +1491,9 @@
 		"release": "Base",
 		"rarity": "Lunar",
 		"oneTimeUse": false,
-		"modifiers": "Cooldowns"
+		"modifiers": [
+			"Cooldowns"
+		]
 	},
 	{
 		"name": "Hooks of Heresy",
@@ -1147,7 +1503,10 @@
 		"release": "Base",
 		"rarity": "Lunar",
 		"oneTimeUse": false,
-		"modifiers": "Damage, Skills"
+		"modifiers": [
+			"Damage",
+			"Skills"
+		]
 	},
 	{
 		"name": "Light Flux Pauldron",
@@ -1157,7 +1516,11 @@
 		"release": "Survivors of the Void",
 		"rarity": "Lunar",
 		"oneTimeUse": false,
-		"modifiers": "Attack Speed, Skills, Cooldowns"
+		"modifiers": [
+			"Attack Speed",
+			"Skills",
+			"Cooldowns"
+		]
 	},
 	{
 		"name": "Mercurial Rachis",
@@ -1167,7 +1530,10 @@
 		"release": "Base",
 		"rarity": "Lunar",
 		"oneTimeUse": false,
-		"modifiers": "Damage, AOE"
+		"modifiers": [
+			"Damage",
+			"AOE"
+		]
 	},
 	{
 		"name": "Purity",
@@ -1177,7 +1543,10 @@
 		"release": "Base",
 		"rarity": "Lunar",
 		"oneTimeUse": false,
-		"modifiers": "Skills, Cooldowns"
+		"modifiers": [
+			"Skills",
+			"Cooldowns"
+		]
 	},
 	{
 		"name": "Shaped Glass",
@@ -1187,7 +1556,11 @@
 		"release": "Base",
 		"rarity": "Lunar",
 		"oneTimeUse": false,
-		"modifiers": "Damage, heal, HP"
+		"modifiers": [
+			"Damage",
+			"Heal",
+			"HP"
+		]
 	},
 	{
 		"name": "Stone Flux Pauldron",
@@ -1197,7 +1570,11 @@
 		"release": "Survivors of the Void",
 		"rarity": "Lunar",
 		"oneTimeUse": false,
-		"modifiers": "heal, HP, Movement"
+		"modifiers": [
+			"Heal",
+			"HP",
+			"Movement Speed"
+		]
 	},
 	{
 		"name": "Strides of Heresy",
@@ -1207,7 +1584,12 @@
 		"release": "Base",
 		"rarity": "Lunar",
 		"oneTimeUse": false,
-		"modifiers": "heal, HP, Movement, Skills"
+		"modifiers": [
+			"Heal",
+			"HP",
+			"Movement Speed",
+			"Skills"
+		]
 	},
 	{
 		"name": "Transcendence",
@@ -1217,7 +1599,12 @@
 		"release": "Base",
 		"rarity": "Lunar",
 		"oneTimeUse": false,
-		"modifiers": "heal, HP, Shield"
+		"modifiers": [
+			"Heal",
+			"HP",
+			"Health Regen",
+			"Shield"
+		]
 	},
 	{
 		"name": "Visions of Heresy",
@@ -1227,7 +1614,10 @@
 		"release": "Base",
 		"rarity": "Lunar",
 		"oneTimeUse": false,
-		"modifiers": "Damage, Skills"
+		"modifiers": [
+			"Damage",
+			"Skills"
+		]
 	},
 	{
 		"name": "Benthic Bloom",
@@ -1237,7 +1627,9 @@
 		"release": "Survivors of the Void",
 		"rarity": "Void",
 		"oneTimeUse": false,
-		"modifiers": "ique"
+		"modifiers": [
+			"Unique"
+		]
 	},
 	{
 		"name": "Encrusted Key",
@@ -1247,7 +1639,9 @@
 		"release": "Survivors of the Void",
 		"rarity": "Void",
 		"oneTimeUse": true,
-		"modifiers": "Expendable"
+		"modifiers": [
+			"Expendable"
+		]
 	},
 	{
 		"name": "Lost Seer's Lenses",
@@ -1257,7 +1651,9 @@
 		"release": "Survivors of the Void",
 		"rarity": "Void",
 		"oneTimeUse": false,
-		"modifiers": "Execute"
+		"modifiers": [
+			"Execute"
+		]
 	},
 	{
 		"name": "Lysate Cell",
@@ -1267,7 +1663,10 @@
 		"release": "Survivors of the Void",
 		"rarity": "Void",
 		"oneTimeUse": false,
-		"modifiers": "Skills, Cooldowns"
+		"modifiers": [
+			"Skills",
+			"Cooldowns"
+		]
 	},
 	{
 		"name": "Needletick",
@@ -1277,7 +1676,9 @@
 		"release": "Survivors of the Void",
 		"rarity": "Void",
 		"oneTimeUse": false,
-		"modifiers": "Damage"
+		"modifiers": [
+			"Damage"
+		]
 	},
 	{
 		"name": "Newly Hatched Zoea",
@@ -1287,7 +1688,9 @@
 		"release": "Survivors of the Void",
 		"rarity": "Void",
 		"oneTimeUse": false,
-		"modifiers": "ique"
+		"modifiers": [
+			"Unique"
+		]
 	},
 	{
 		"name": "Plasma Shrimp",
@@ -1297,7 +1700,14 @@
 		"release": "Survivors of the Void",
 		"rarity": "Void",
 		"oneTimeUse": false,
-		"modifiers": "Damage, heal, HP, Shield, Missiles, on-hit effect"
+		"modifiers": [
+			"Damage",
+			"Heal",
+			"HP",
+			"Shield",
+			"Missiles",
+			"on-hit effect"
+		]
 	},
 	{
 		"name": "Pluripotent Larva",
@@ -1307,7 +1717,9 @@
 		"release": "Survivors of the Void",
 		"rarity": "Void",
 		"oneTimeUse": true,
-		"modifiers": "Expendable"
+		"modifiers": [
+			"Expendable"
+		]
 	},
 	{
 		"name": "Polylute",
@@ -1317,7 +1729,10 @@
 		"release": "Survivors of the Void",
 		"rarity": "Void",
 		"oneTimeUse": false,
-		"modifiers": "Damage, Lightning"
+		"modifiers": [
+			"Damage",
+			"Lightning"
+		]
 	},
 	{
 		"name": "Safer Spaces",
@@ -1327,7 +1742,9 @@
 		"release": "Survivors of the Void",
 		"rarity": "Void",
 		"oneTimeUse": false,
-		"modifiers": "Damage"
+		"modifiers": [
+			"Damage"
+		]
 	},
 	{
 		"name": "Singularity Band",
@@ -1337,7 +1754,10 @@
 		"release": "Survivors of the Void",
 		"rarity": "Void",
 		"oneTimeUse": false,
-		"modifiers": "Damage, AOE"
+		"modifiers": [
+			"Damage",
+			"AOE"
+		]
 	},
 	{
 		"name": "Tentabauble",
@@ -1347,7 +1767,9 @@
 		"release": "Survivors of the Void",
 		"rarity": "Void",
 		"oneTimeUse": false,
-		"modifiers": "on-hit effect"
+		"modifiers": [
+			"on-hit effect"
+		]
 	},
 	{
 		"name": "Voidsent Flame",
@@ -1357,7 +1779,13 @@
 		"release": "Survivors of the Void",
 		"rarity": "Void",
 		"oneTimeUse": false,
-		"modifiers": "Damage, heal, HP, Spawn, on-hit effect"
+		"modifiers": [
+			"Damage",
+			"Heal",
+			"HP",
+			"Spawn",
+			"on-hit effect"
+		]
 	},
 	{
 		"name": "Weeping Fungus",
@@ -1367,7 +1795,11 @@
 		"release": "Survivors of the Void",
 		"rarity": "Void",
 		"oneTimeUse": false,
-		"modifiers": "heal, HP, Sprint"
+		"modifiers": [
+			"Heal",
+			"HP",
+			"Sprint Speed"
+		]
 	},
 	{
 		"name": "Blast Shower",
@@ -1377,7 +1809,9 @@
 		"release": "Base",
 		"rarity": "Equipment",
 		"oneTimeUse": false,
-		"modifiers": "Damage"
+		"modifiers": [
+			"Damage"
+		]
 	},
 	{
 		"name": "Disposable Missile Launcher",
@@ -1387,7 +1821,10 @@
 		"release": "Base",
 		"rarity": "Equipment",
 		"oneTimeUse": false,
-		"modifiers": "Damage, Missiles"
+		"modifiers": [
+			"Damage",
+			"Missiles"
+		]
 	},
 	{
 		"name": "Eccentric Vase",
@@ -1397,7 +1834,9 @@
 		"release": "Base",
 		"rarity": "Equipment",
 		"oneTimeUse": false,
-		"modifiers": "ique"
+		"modifiers": [
+			"Unique"
+		]
 	},
 	{
 		"name": "Executive Card",
@@ -1407,7 +1846,9 @@
 		"release": "Survivors of the Void",
 		"rarity": "Equipment",
 		"oneTimeUse": false,
-		"modifiers": "ique"
+		"modifiers": [
+			"Unique"
+		]
 	},
 	{
 		"name": "Foreign Fruit",
@@ -1417,7 +1858,10 @@
 		"release": "Base",
 		"rarity": "Equipment",
 		"oneTimeUse": false,
-		"modifiers": "heal, HP"
+		"modifiers": [
+			"Heal",
+			"HP"
+		]
 	},
 	{
 		"name": "Forgive Me Please",
@@ -1427,7 +1871,9 @@
 		"release": "Base",
 		"rarity": "Equipment",
 		"oneTimeUse": false,
-		"modifiers": "ique"
+		"modifiers": [
+			"Unique"
+		]
 	},
 	{
 		"name": "Fuel Array",
@@ -1437,7 +1883,9 @@
 		"release": "Base",
 		"rarity": "Equipment",
 		"oneTimeUse": false,
-		"modifiers": "ique"
+		"modifiers": [
+			"Unique"
+		]
 	},
 	{
 		"name": "Gnarled Woodsprite",
@@ -1447,7 +1895,10 @@
 		"release": "Base",
 		"rarity": "Equipment",
 		"oneTimeUse": false,
-		"modifiers": "heal, HP"
+		"modifiers": [
+			"Heal",
+			"HP"
+		]
 	},
 	{
 		"name": "Goobo Jr.",
@@ -1457,7 +1908,12 @@
 		"release": "Survivors of the Void",
 		"rarity": "Equipment",
 		"oneTimeUse": false,
-		"modifiers": "Damage, heal, HP, Spawn"
+		"modifiers": [
+			"Damage",
+			"Heal",
+			"HP",
+			"Spawn"
+		]
 	},
 	{
 		"name": "Gorag's Opus",
@@ -1467,7 +1923,10 @@
 		"release": "Base",
 		"rarity": "Equipment",
 		"oneTimeUse": false,
-		"modifiers": "Attack Speed, Movement"
+		"modifiers": [
+			"Attack Speed",
+			"Movement Speed"
+		]
 	},
 	{
 		"name": "Jade Elephant",
@@ -1477,7 +1936,9 @@
 		"release": "Base",
 		"rarity": "Equipment",
 		"oneTimeUse": false,
-		"modifiers": "Armor"
+		"modifiers": [
+			"Armor"
+		]
 	},
 	{
 		"name": "Milky Chrysalis",
@@ -1487,7 +1948,9 @@
 		"release": "Base",
 		"rarity": "Equipment",
 		"oneTimeUse": false,
-		"modifiers": "Movement"
+		"modifiers": [
+			"Movement Speed"
+		]
 	},
 	{
 		"name": "Molotov (6-Pack)",
@@ -1497,7 +1960,11 @@
 		"release": "Survivors of the Void",
 		"rarity": "Equipment",
 		"oneTimeUse": false,
-		"modifiers": "Damageignite, AOE"
+		"modifiers": [
+			"Damage",
+			"Ignite",
+			"AOE"
+		]
 	},
 	{
 		"name": "Ocular HUD",
@@ -1507,7 +1974,9 @@
 		"release": "Base",
 		"rarity": "Equipment",
 		"oneTimeUse": false,
-		"modifiers": "Crit"
+		"modifiers": [
+			"Crit"
+		]
 	},
 	{
 		"name": "Preon Accumulator",
@@ -1517,7 +1986,10 @@
 		"release": "Base",
 		"rarity": "Equipment",
 		"oneTimeUse": false,
-		"modifiers": "Damage, AOE"
+		"modifiers": [
+			"Damage",
+			"AOE"
+		]
 	},
 	{
 		"name": "Primordial Cube",
@@ -1527,7 +1999,9 @@
 		"release": "Base",
 		"rarity": "Equipment",
 		"oneTimeUse": false,
-		"modifiers": "AOE"
+		"modifiers": [
+			"AOE"
+		]
 	},
 	{
 		"name": "Radar Scanner",
@@ -1537,7 +2011,9 @@
 		"release": "Base",
 		"rarity": "Equipment",
 		"oneTimeUse": false,
-		"modifiers": "AOE"
+		"modifiers": [
+			"AOE"
+		]
 	},
 	{
 		"name": "Recycler",
@@ -1547,7 +2023,9 @@
 		"release": "Base",
 		"rarity": "Equipment",
 		"oneTimeUse": false,
-		"modifiers": "ique"
+		"modifiers": [
+			"Unique"
+		]
 	},
 	{
 		"name": "Remote Caffeinator",
@@ -1557,7 +2035,11 @@
 		"release": "Survivors of the Void",
 		"rarity": "Equipment",
 		"oneTimeUse": false,
-		"modifiers": "Damage, heal, HP"
+		"modifiers": [
+			"Damage",
+			"Heal",
+			"HP"
+		]
 	},
 	{
 		"name": "Royal Capacitor",
@@ -1567,7 +2049,10 @@
 		"release": "Base",
 		"rarity": "Equipment",
 		"oneTimeUse": false,
-		"modifiers": "Damage, Lightning"
+		"modifiers": [
+			"Damage",
+			"Lightning"
+		]
 	},
 	{
 		"name": "Sawmerang",
@@ -1577,7 +2062,10 @@
 		"release": "Base",
 		"rarity": "Equipment",
 		"oneTimeUse": false,
-		"modifiers": "Damage, Bleed"
+		"modifiers": [
+			"Damage",
+			"Bleed"
+		]
 	},
 	{
 		"name": "Super Massive Leech",
@@ -1587,7 +2075,10 @@
 		"release": "Base",
 		"rarity": "Equipment",
 		"oneTimeUse": false,
-		"modifiers": "Damage, heal, HP"
+		"modifiers": [
+			"Damage",
+			"Heal"
+		]
 	},
 	{
 		"name": "The Back-up",
@@ -1597,7 +2088,9 @@
 		"release": "Base",
 		"rarity": "Equipment",
 		"oneTimeUse": false,
-		"modifiers": "Spawn"
+		"modifiers": [
+			"Spawn"
+		]
 	},
 	{
 		"name": "The Crowdfunder",
@@ -1607,7 +2100,9 @@
 		"release": "Base",
 		"rarity": "Equipment",
 		"oneTimeUse": false,
-		"modifiers": "Damage"
+		"modifiers": [
+			"Damage"
+		]
 	},
 	{
 		"name": "Trophy Hunter's Tricorn",
@@ -1617,7 +2112,11 @@
 		"release": "Survivors of the Void",
 		"rarity": "Equipment",
 		"oneTimeUse": true,
-		"modifiers": "Spawn, Execute, Expendable"
+		"modifiers": [
+			"Spawn",
+			"Execute",
+			"Expendable"
+		]
 	},
 	{
 		"name": "Volcanic Egg",
@@ -1627,7 +2126,9 @@
 		"release": "Base",
 		"rarity": "Equipment",
 		"oneTimeUse": false,
-		"modifiers": "Damage"
+		"modifiers": [
+			"Damage"
+		]
 	},
 	{
 		"name": "Effigy of Grief",
@@ -1637,7 +2138,11 @@
 		"release": "Base",
 		"rarity": "Lunar, Equipment",
 		"oneTimeUse": false,
-		"modifiers": "AOE, Armor, Slow"
+		"modifiers": [
+			"AOE",
+			"Armor",
+			"Slow"
+		]
 	},
 	{
 		"name": "Glowing Meteorite",
@@ -1647,7 +2152,9 @@
 		"release": "Base",
 		"rarity": "Lunar, Equipment",
 		"oneTimeUse": false,
-		"modifiers": "Damage"
+		"modifiers": [
+			"Damage"
+		]
 	},
 	{
 		"name": "Helfire Tincture",
@@ -1657,7 +2164,13 @@
 		"release": "Base",
 		"rarity": "Lunar, Equipment",
 		"oneTimeUse": false,
-		"modifiers": "Damageignite, AOE, heal, HP"
+		"modifiers": [
+			"Damage",
+			"Ignite",
+			"AOE",
+			"Heal",
+			"HP"
+		]
 	},
 	{
 		"name": "Spinel Tonic",
@@ -1667,7 +2180,14 @@
 		"release": "Base",
 		"rarity": "Lunar, Equipment",
 		"oneTimeUse": false,
-		"modifiers": "Damage, heal, HP, Armor, Attack Speed"
+		"modifiers": [
+			"Damage",
+			"Heal",
+			"HP",
+			"Health Regen",
+			"Armor",
+			"Attack Speed"
+		]
 	},
 	{
 		"name": "Her Biting Embrace",
@@ -1677,7 +2197,9 @@
 		"release": "Base",
 		"rarity": "Elite Equipment",
 		"oneTimeUse": false,
-		"modifiers": "ique"
+		"modifiers": [
+			"Unique"
+		]
 	},
 	{
 		"name": "His Reassurance",
@@ -1687,7 +2209,9 @@
 		"release": "Survivors of the Void",
 		"rarity": "Elite Equipment",
 		"oneTimeUse": false,
-		"modifiers": "ique"
+		"modifiers": [
+			"Unique"
+		]
 	},
 	{
 		"name": "Ifrit's Distinction",
@@ -1697,7 +2221,9 @@
 		"release": "Base",
 		"rarity": "Elite Equipment",
 		"oneTimeUse": false,
-		"modifiers": "ique"
+		"modifiers": [
+			"Unique"
+		]
 	},
 	{
 		"name": "N'kuhana's Retort",
@@ -1707,7 +2233,9 @@
 		"release": "Base",
 		"rarity": "Elite Equipment",
 		"oneTimeUse": false,
-		"modifiers": "ique"
+		"modifiers": [
+			"Unique"
+		]
 	},
 	{
 		"name": "Shared Design",
@@ -1717,7 +2245,9 @@
 		"release": "Base",
 		"rarity": "Elite Equipment",
 		"oneTimeUse": false,
-		"modifiers": "ique"
+		"modifiers": [
+			"Unique"
+		]
 	},
 	{
 		"name": "Silence Between Two Strikes",
@@ -1727,7 +2257,9 @@
 		"release": "Base",
 		"rarity": "Elite Equipment",
 		"oneTimeUse": false,
-		"modifiers": "Lightning"
+		"modifiers": [
+			"Lightning"
+		]
 	},
 	{
 		"name": "Spectral Circlet",
@@ -1737,6 +2269,8 @@
 		"release": "Base",
 		"rarity": "Elite Equipment",
 		"oneTimeUse": false,
-		"modifiers": "ique"
+		"modifiers": [
+			"Unique"
+		]
 	}
 ]

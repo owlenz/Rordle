@@ -1,7 +1,7 @@
 "use client";
 
-import HealthBar from "./components/healthBar";
-import Button from "./components/button";
+import HealthBar from "@/components/healthBar";
+import Button from "@/components/button";
 import data from "@/ror.json";
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
@@ -11,12 +11,13 @@ import { compareObjects } from "@/utils/xdd";
 import deathMessages from "@/deathMessages.json";
 type gameStateT = "won" | "lost" | "playing" | undefined;
 import { IoSkullSharp } from "react-icons/io5";
+import Time from "@/components/time";
 
 const Home = () => {
 	const [search, setSearch] = useState("");
 	const [results, setResults] = useState<Array<Item>>([]);
 	const [focus, setFocus] = useState(false);
-	const [hp, setHp] = useState<number>(100);
+	const [hp, setHp] = useState<number>(120);
 	const [answers, setAnswers] = useState<Array<Item>>([]);
 	const [realAnswer, setRealAnswer] = useState<Item>();
 	const [gameState, setGameState] = useState<gameStateT>();
@@ -37,6 +38,15 @@ const Home = () => {
 			const item = await fetch("/api").then(xdd => xdd.json())
 			console.log(item)
 			setRealAnswer(item);
+			if (ls) {
+				const storage = JSON.parse(ls)
+				if (storage.date !== item.date) {
+					localStorage.removeItem("userStats")
+					setAnswers([]);
+					setHp(120);
+					setGameState("playing");
+				}
+			}
 		}
 		getTodayItem()
 
@@ -84,7 +94,12 @@ const Home = () => {
 
 		setHp(newHP);
 
-		const stats = { hp: newHP, answers: newAnswers, gameState: newGameState };
+		let stats
+		const dateToday = new Date().toDateString()
+		if (newGameState == "playing")
+			stats = { hp: newHP, answers: newAnswers, gameState: newGameState, date: dateToday };
+		else
+			stats = { hp: newHP, answers: newAnswers, gameState: newGameState, date: dateToday };
 
 		localStorage.setItem("userStats", JSON.stringify(stats));
 		console.log(newAnswers);
@@ -141,6 +156,7 @@ const Home = () => {
 				<div className="bg-black bg-opacity-70 p-6 text-white z-30 box w-full flex flex-col items-center gap-4 relative">
 					<h2 className="text-3xl">You guessed it right</h2>
 					<div className="flex flex-col items-center gap-2"><h2 className="text-2xl">Today's Item is {realAnswer.name}</h2><Image alt={realAnswer.name} width={60} height={60} src={realAnswer.imageLink} /></div>
+					<div className="text-2xl text-center">Next Item in <br /><Time /></div>
 				</div>
 			) : gameState === "lost" ? (
 				<div className="bg-black bg-opacity-70 text-center p-6 text-white z-30 box w-full flex flex-col items-center gap-4 relative">
@@ -149,6 +165,7 @@ const Home = () => {
 						<IoSkullSharp />
 					</h2>
 					<div className="flex flex-col items-center gap-2"><h2 className="text-2xl">Today's Item was {realAnswer.name}</h2><Image alt={realAnswer.name} width={60} height={60} src={realAnswer.imageLink} /></div>
+					<div>Next Item in <br /><Time /></div>
 				</div>
 			) : null}
 			<AnswersBox answers={answers} realAnswer={realAnswer} />
