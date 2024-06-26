@@ -1,6 +1,6 @@
-import { Color } from "@/app/types";
+import { Color, Item } from "@/app/types";
 
-export function compareObjects(x: object, y: object) {
+export function compareObjects(x: object, y: Item) {
 	const xdd = Object.assign({}, y);
 	delete xdd.date
 	return JSON.stringify(x) === JSON.stringify(xdd);

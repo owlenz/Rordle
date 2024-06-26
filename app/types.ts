@@ -1,5 +1,6 @@
 export interface Item {
 	name: string;
+	date?: string
 	desc: string;
 	stack: string;
 	imageLink: string;
