@@ -23,9 +23,8 @@ setTimeout(function() {
 	setInterval(todayAnswer, twentyFourHours);
 }, eta_ms);
 
-const dateToday = new Date().toDateString()
-
 export const GET = async () => {
+	const dateToday = new Date().toDateString()
 	return new Response(JSON.stringify({ ...answer, date: dateToday }))
 }
 

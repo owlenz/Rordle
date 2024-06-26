@@ -23,7 +23,7 @@ const Answers = ({ entry, realAnswer }: { entry: Item; realAnswer: Item }) => {
 				if (key === "modifiers") {
 					color = compareArrays<string>(xdd[key], realAnswer.modifiers)
 				} else {
-					if (value === answerKey) {
+					if (value == answerKey) {
 						color = "green";
 					} else {
 						color = "red";
@@ -60,10 +60,10 @@ const AnswersBox = ({
 		<div className="bg-black bg-opacity-70 p-2 text-white box w-full flex flex-col gap-5 relative mt-10">
 			<div className="flex gap-4 font-bold text-[18px]">
 				<span className="w-24 text-center">Item</span>
-				<span className="w-24 text-center">Rarity</span>
-				<span className="w-24 text-center">Modifiers</span>
 				<span className="w-24 text-center">Stacking</span>
 				<span className="w-24 text-center">Release</span>
+				<span className="w-24 text-center">Rarity</span>
+				<span className="w-24 text-center">One Time</span>
 				<span className="w-24 text-center">Modifiers</span>
 			</div>
 			{answers.map((entry, index) => {

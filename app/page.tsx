@@ -40,7 +40,10 @@ const Home = () => {
 			setRealAnswer(item);
 			if (ls) {
 				const storage = JSON.parse(ls)
+				console.clear()
+				console.log(item, storage)
 				if (storage.date !== item.date) {
+
 					localStorage.removeItem("userStats")
 					setAnswers([]);
 					setHp(120);
@@ -82,7 +85,6 @@ const Home = () => {
 		if (compareObjects(newAnswers[newAnswers.length - 1], realAnswer as Item)) {
 			newGameState = "won";
 			setGameState(newGameState);
-			// win login
 		} else {
 			newHP -= 15;
 		}
@@ -96,10 +98,7 @@ const Home = () => {
 
 		let stats
 		const dateToday = new Date().toDateString()
-		if (newGameState == "playing")
-			stats = { hp: newHP, answers: newAnswers, gameState: newGameState, date: dateToday };
-		else
-			stats = { hp: newHP, answers: newAnswers, gameState: newGameState, date: dateToday };
+		stats = { hp: newHP, answers: newAnswers, gameState: newGameState, date: dateToday };
 
 		localStorage.setItem("userStats", JSON.stringify(stats));
 		console.log(newAnswers);
@@ -165,7 +164,7 @@ const Home = () => {
 						<IoSkullSharp />
 					</h2>
 					<div className="flex flex-col items-center gap-2"><h2 className="text-2xl">Today's Item was {realAnswer.name}</h2><Image alt={realAnswer.name} width={60} height={60} src={realAnswer.imageLink} /></div>
-					<div>Next Item in <br /><Time /></div>
+					<div className="text-2xl text-center">Next Item in <br /><Time /></div>
 				</div>
 			) : null}
 			<AnswersBox answers={answers} realAnswer={realAnswer} />

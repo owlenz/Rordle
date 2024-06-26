@@ -1,7 +1,9 @@
 import { Color } from "@/app/types";
 
 export function compareObjects(x: object, y: object) {
-	return JSON.stringify(x) === JSON.stringify(y);
+	const xdd = Object.assign({}, y);
+	delete xdd.date
+	return JSON.stringify(x) === JSON.stringify(xdd);
 }
 
 function arraysEqual<T>(x: Array<T>, y: Array<T>): boolean {
