@@ -1,3 +1,4 @@
+
 [
 	{
 		"name": "Armor-Piercing Rounds",
@@ -9,6 +10,10 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Damage"
+		],
+		"colors": [
+			"Yellow",
+			"Black"
 		]
 	},
 	{
@@ -21,6 +26,10 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Skills"
+		],
+		"colors": [
+			"Black",
+			"White"
 		]
 	},
 	{
@@ -34,6 +43,10 @@
 		"modifiers": [
 			"Heal",
 			"HP"
+		],
+		"colors": [
+			"Red",
+			"Cream"
 		]
 	},
 	{
@@ -46,6 +59,10 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Damage"
+		],
+		"colors": [
+			"Red",
+			"Orange"
 		]
 	},
 	{
@@ -60,6 +77,9 @@
 			"AOE",
 			"Heal",
 			"HP"
+		],
+		"colors": [
+			"Green"
 		]
 	},
 	{
@@ -74,6 +94,10 @@
 			"Heal",
 			"HP",
 			"Health Regen"
+		],
+		"colors": [
+			"Black",
+			"Aqua"
 		]
 	},
 	{
@@ -88,6 +112,10 @@
 			"Damage",
 			"Heal",
 			"HP"
+		],
+		"colors": [
+			"Red",
+			"Gray"
 		]
 	},
 	{
@@ -102,6 +130,10 @@
 			"Damage",
 			"Heal",
 			"HP"
+		],
+		"colors": [
+			"Cream",
+			"Blue"
 		]
 	},
 	{
@@ -114,6 +146,9 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Sprint Speed"
+		],
+		"colors": [
+			"Aqua"
 		]
 	},
 	{
@@ -127,6 +162,10 @@
 		"modifiers": [
 			"Damage",
 			"AOE"
+		],
+		"colors": [
+			"Red",
+			"White"
 		]
 	},
 	{
@@ -142,6 +181,9 @@
 			"Ignite",
 			"AOE",
 			"on-kill effect"
+		],
+		"colors": [
+			"Red"
 		]
 	},
 	{
@@ -154,6 +196,9 @@
 		"oneTimeUse": true,
 		"modifiers": [
 			"Expendable"
+		],
+		"colors": [
+			"Yellow"
 		]
 	},
 	{
@@ -167,6 +212,10 @@
 		"modifiers": [
 			"Damage",
 			"Crit"
+		],
+		"colors": [
+			"Red",
+			"Black"
 		]
 	},
 	{
@@ -180,6 +229,11 @@
 		"modifiers": [
 			"Heal",
 			"HP"
+		],
+		"colors": [
+			"White",
+			"Green",
+			"Red"
 		]
 	},
 	{
@@ -193,6 +247,10 @@
 		"modifiers": [
 			"Attack Speed",
 			"Movement Speed"
+		],
+		"colors": [
+			"White",
+			"Brown"
 		]
 	},
 	{
@@ -208,6 +266,10 @@
 			"HP",
 			"Spawn",
 			"on-kill effect"
+		],
+		"colors": [
+			"Brown",
+			"Yellow"
 		]
 	},
 	{
@@ -220,6 +282,10 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Armor"
+		],
+		"colors": [
+			"White",
+			"Brown"
 		]
 	},
 	{
@@ -232,6 +298,10 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Movement Speed"
+		],
+		"colors": [
+			"White",
+			"Black"
 		]
 	},
 	{
@@ -246,6 +316,10 @@
 			"Heal",
 			"HP",
 			"Shield"
+		],
+		"colors": [
+			"Blue",
+			"Black"
 		]
 	},
 	{
@@ -261,6 +335,10 @@
 			"Heal",
 			"HP",
 			"Expendable"
+		],
+		"colors": [
+			"Red",
+			"White"
 		]
 	},
 	{
@@ -273,6 +351,10 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Damage"
+		],
+		"colors": [
+			"Gray",
+			"Black"
 		]
 	},
 	{
@@ -285,6 +367,10 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Damage"
+		],
+		"colors": [
+			"Green",
+			"Brown"
 		]
 	},
 	{
@@ -297,6 +383,10 @@
 		"oneTimeUse": true,
 		"modifiers": [
 			"Expendable"
+		],
+		"colors": [
+			"Brown",
+			"Gray"
 		]
 	},
 	{
@@ -309,6 +399,10 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Attack Speed"
+		],
+		"colors": [
+			"Lime",
+			"Gray"
 		]
 	},
 	{
@@ -322,6 +416,10 @@
 		"modifiers": [
 			"Damage",
 			"on-hit effect"
+		],
+		"colors": [
+			"Orange",
+			"White"
 		]
 	},
 	{
@@ -334,6 +432,9 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"on-hit effect"
+		],
+		"colors": [
+			"Dark Green"
 		]
 	},
 	{
@@ -348,6 +449,10 @@
 			"Heal",
 			"HP",
 			"on-kill effect"
+		],
+		"colors": [
+			"Yellow",
+			"Brown"
 		]
 	},
 	{
@@ -360,6 +465,10 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Damage"
+		],
+		"colors": [
+			"Brown",
+			"White"
 		]
 	},
 	{
@@ -373,6 +482,10 @@
 		"modifiers": [
 			"Damage",
 			"Bleed"
+		],
+		"colors": [
+			"White",
+			"Black"
 		]
 	},
 	{
@@ -387,6 +500,11 @@
 			"AOE",
 			"Movement Speed",
 			"Teleporter"
+		],
+		"colors": [
+			"Red",
+			"Yellow",
+			"Brown"
 		]
 	},
 	{
@@ -400,6 +518,10 @@
 		"modifiers": [
 			"Damage",
 			"Missiles"
+		],
+		"colors": [
+			"Black",
+			"Yellow"
 		]
 	},
 	{
@@ -414,6 +536,10 @@
 			"Skills",
 			"Cooldowns",
 			"on-kill effect"
+		],
+		"colors": [
+			"Yellow",
+			"Black"
 		]
 	},
 	{
@@ -429,6 +555,10 @@
 			"Attack Speed",
 			"Movement Speed",
 			"on-kill effect"
+		],
+		"colors": [
+			"Cream",
+			"Red"
 		]
 	},
 	{
@@ -443,6 +573,10 @@
 			"Movement Speed",
 			"Slow",
 			"on-hit effect"
+		],
+		"colors": [
+			"White",
+			"Black"
 		]
 	},
 	{
@@ -455,6 +589,10 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Damage"
+		],
+		"colors": [
+			"Gray",
+			"Red"
 		]
 	},
 	{
@@ -467,6 +605,11 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Cooldowns"
+		],
+		"colors": [
+			"Gray",
+			"Black",
+			"Yellow"
 		]
 	},
 	{
@@ -479,6 +622,10 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"on-kill effect"
+		],
+		"colors": [
+			"Black",
+			"Dark Blue"
 		]
 	},
 	{
@@ -493,6 +640,10 @@
 			"Heal",
 			"HP",
 			"Crit"
+		],
+		"colors": [
+			"Beige",
+			"White"
 		]
 	},
 	{
@@ -505,6 +656,10 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Unique"
+		],
+		"colors": [
+			"Blue",
+			"Aqua"
 		]
 	},
 	{
@@ -518,6 +673,10 @@
 		"modifiers": [
 			"Movement Speed",
 			"on-kill effect"
+		],
+		"colors": [
+			"Lime",
+			"Gray"
 		]
 	},
 	{
@@ -531,6 +690,10 @@
 		"modifiers": [
 			"Damage",
 			"Ignite"
+		],
+		"colors": [
+			"Red",
+			"White"
 		]
 	},
 	{
@@ -545,6 +708,10 @@
 			"Heal",
 			"HP",
 			"on-kill effect"
+		],
+		"colors": [
+			"Red",
+			"Gray"
 		]
 	},
 	{
@@ -557,6 +724,9 @@
 		"oneTimeUse": true,
 		"modifiers": [
 			"Expendable"
+		],
+		"colors": [
+			"Yellow"
 		]
 	},
 	{
@@ -569,6 +739,10 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Damage"
+		],
+		"colors": [
+			"Brown",
+			"Yellow"
 		]
 	},
 	{
@@ -583,6 +757,10 @@
 			"Damage",
 			"Heal",
 			"HP"
+		],
+		"colors": [
+			"Brown",
+			"Black"
 		]
 	},
 	{
@@ -597,6 +775,10 @@
 			"Heal",
 			"HP",
 			"Teleporter"
+		],
+		"colors": [
+			"Blue",
+			"Lime"
 		]
 	},
 	{
@@ -612,6 +794,9 @@
 			"HP",
 			"Execute",
 			"Elite"
+		],
+		"colors": [
+			"Brown"
 		]
 	},
 	{
@@ -626,6 +811,11 @@
 			"Heal",
 			"HP",
 			"Movement Speed"
+		],
+		"colors": [
+			"Orange",
+			"Brown",
+			"Black"
 		]
 	},
 	{
@@ -639,6 +829,11 @@
 		"modifiers": [
 			"Attack Speed",
 			"Crit"
+		],
+		"colors": [
+			"Red",
+			"Brown",
+			"White"
 		]
 	},
 	{
@@ -651,6 +846,9 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Damage"
+		],
+		"colors": [
+			"Silver"
 		]
 	},
 	{
@@ -663,6 +861,10 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Movement Speed"
+		],
+		"colors": [
+			"Red",
+			"Gray"
 		]
 	},
 	{
@@ -675,6 +877,11 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Health Regen"
+		],
+		"colors": [
+			"Yellow",
+			"Orange",
+			"Green"
 		]
 	},
 	{
@@ -688,6 +895,9 @@
 		"modifiers": [
 			"Armor",
 			"Sprint Speed"
+		],
+		"colors": [
+			"Yellow"
 		]
 	},
 	{
@@ -701,6 +911,10 @@
 		"modifiers": [
 			"Damage",
 			"Slow"
+		],
+		"colors": [
+			"Light Blue",
+			"White"
 		]
 	},
 	{
@@ -713,6 +927,10 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Unique"
+		],
+		"colors": [
+			"White",
+			"Brown"
 		]
 	},
 	{
@@ -726,6 +944,9 @@
 		"modifiers": [
 			"Damage",
 			"Skills"
+		],
+		"colors": [
+			"Graish Blue"
 		]
 	},
 	{
@@ -739,6 +960,11 @@
 		"modifiers": [
 			"Attack Speed",
 			"Spawn"
+		],
+		"colors": [
+			"Blue",
+			"White",
+			"Purple"
 		]
 	},
 	{
@@ -753,6 +979,10 @@
 			"Damage",
 			"AOE",
 			"Lightning"
+		],
+		"colors": [
+			"Brown",
+			"Black"
 		]
 	},
 	{
@@ -765,6 +995,11 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Attack Speed"
+		],
+		"colors": [
+			"Gray",
+			"Light Blue",
+			"Black"
 		]
 	},
 	{
@@ -777,6 +1012,10 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Sprint Speed"
+		],
+		"colors": [
+			"Cream",
+			"Gray"
 		]
 	},
 	{
@@ -791,6 +1030,11 @@
 			"Damage",
 			"Spawn",
 			"on-kill effect"
+		],
+		"colors": [
+			"Gray",
+			"Yellow",
+			"Blue"
 		]
 	},
 	{
@@ -803,6 +1047,9 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Unique"
+		],
+		"colors": [
+			"Green"
 		]
 	},
 	{
@@ -815,6 +1062,10 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Heal"
+		],
+		"colors": [
+			"White",
+			"Dark Yellow"
 		]
 	},
 	{
@@ -828,6 +1079,9 @@
 		"modifiers": [
 			"Skills",
 			"Cooldowns"
+		],
+		"colors": [
+			"Purple"
 		]
 	},
 	{
@@ -841,6 +1095,10 @@
 		"modifiers": [
 			"Heal",
 			"HP"
+		],
+		"colors": [
+			"Yellow",
+			"Orange"
 		]
 	},
 	{
@@ -853,6 +1111,10 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Unique"
+		],
+		"colors": [
+			"Pink",
+			"Black"
 		]
 	},
 	{
@@ -868,6 +1130,10 @@
 			"Cooldowns",
 			"Elite",
 			"on-kill effect"
+		],
+		"colors": [
+			"Purple",
+			"Blue"
 		]
 	},
 	{
@@ -880,6 +1146,11 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Damage"
+		],
+		"colors": [
+			"Brown",
+			"Black",
+			"White"
 		]
 	},
 	{
@@ -893,6 +1164,10 @@
 		"modifiers": [
 			"Damage",
 			"on-kill effect"
+		],
+		"colors": [
+			"Black",
+			"Brown"
 		]
 	},
 	{
@@ -906,6 +1181,11 @@
 		"modifiers": [
 			"AOE",
 			"Attack Speed"
+		],
+		"colors": [
+			"Blue",
+			"Light Yellow",
+			"Black"
 		]
 	},
 	{
@@ -918,6 +1198,10 @@
 		"oneTimeUse": true,
 		"modifiers": [
 			"Expendable"
+		],
+		"colors": [
+			"Light Gray",
+			"White"
 		]
 	},
 	{
@@ -932,6 +1216,10 @@
 			"Damage",
 			"Slow",
 			"on-kill effect"
+		],
+		"colors": [
+			"Blue",
+			"Black"
 		]
 	},
 	{
@@ -945,6 +1233,10 @@
 		"modifiers": [
 			"Damage",
 			"on-hit effect"
+		],
+		"colors": [
+			"White",
+			"Black"
 		]
 	},
 	{
@@ -959,6 +1251,10 @@
 			"Damage",
 			"Spawn",
 			"on-kill effect"
+		],
+		"colors": [
+			"White",
+			"Red"
 		]
 	},
 	{
@@ -972,6 +1268,11 @@
 		"modifiers": [
 			"Skills",
 			"Cooldowns"
+		],
+		"colors": [
+			"Black",
+			"White",
+			"Pink"
 		]
 	},
 	{
@@ -987,6 +1288,11 @@
 			"Heal",
 			"HP",
 			"on-kill effect"
+		],
+		"colors": [
+			"Green",
+			"Brown",
+			"White"
 		]
 	},
 	{
@@ -999,6 +1305,9 @@
 		"oneTimeUse": true,
 		"modifiers": [
 			"Expendable"
+		],
+		"colors": [
+			"Yellow"
 		]
 	},
 	{
@@ -1012,7 +1321,8 @@
 		"modifiers": [
 			"Damage",
 			"Crit"
-		]
+		],
+		"colors": ["Black","Red"]
 	},
 	{
 		"name": "N'kuhana's Opinion",
@@ -1026,7 +1336,8 @@
 			"Damage",
 			"Heal",
 			"HP"
-		]
+		],
+		"colors": ["Black","Dark Green"]
 	},
 	{
 		"name": "Pocket I.C.B.M.",
@@ -1039,7 +1350,8 @@
 		"modifiers": [
 			"Damage",
 			"Missiles"
-		]
+		],
+		"colors": ["Orange","Blue"]
 	},
 	{
 		"name": "Rejuvenation Rack",
@@ -1051,7 +1363,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Heal"
-		]
+		],
+		"colors": ["Lime","Brown"]
 	},
 	{
 		"name": "Resonance Disc",
@@ -1064,7 +1377,8 @@
 		"modifiers": [
 			"Damage",
 			"on-kill effect"
-		]
+		],
+		"colors": ["Black","Purple","White"]
 	},
 	{
 		"name": "Sentient Meat Hook",
@@ -1077,7 +1391,8 @@
 		"modifiers": [
 			"Damage",
 			"on-hit effect"
-		]
+		],
+		"colors": ["White","Dark Blue","Aqua"]
 	},
 	{
 		"name": "Shattering Justice",
@@ -1090,7 +1405,8 @@
 		"modifiers": [
 			"Armor",
 			"on-hit effect"
-		]
+		],
+		"colors": ["Rifle Green","Red","Black"]
 	},
 	{
 		"name": "Soulbound Catalyst",
@@ -1102,7 +1418,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Cooldowns"
-		]
+		],
+		"colors": ["Light Green","Rifle Green"]
 	},
 	{
 		"name": "Spare Drone Parts",
@@ -1119,7 +1436,8 @@
 			"Cooldowns",
 			"Missiles",
 			"on-hit effect"
-		]
+		],
+		"colors": ["Blue","White"]
 	},
 	{
 		"name": "Symbiotic Scorpion",
@@ -1132,7 +1450,8 @@
 		"modifiers": [
 			"Armor",
 			"on-hit effect"
-		]
+		],
+		"colors": ["Watermelon","Black","White"]
 	},
 	{
 		"name": "Unstable Tesla Coil",
@@ -1145,7 +1464,8 @@
 		"modifiers": [
 			"Damage",
 			"Lightning"
-		]
+		],
+		"colors": ["Black","Orange"]
 	},
 	{
 		"name": "Wake of Vultures",
@@ -1157,7 +1477,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Elite"
-		]
+		],
+		"colors": ["Dark Yellow","Orange"]
 	},
 	{
 		"name": "Artifact Key",
@@ -1169,7 +1490,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Unique"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Charged Perforator",
@@ -1183,7 +1505,8 @@
 			"Damage",
 			"Lightning",
 			"on-hit effect"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Defense Nucleus",
@@ -1200,7 +1523,8 @@
 			"Spawn",
 			"Elite",
 			"on-kill effect"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Empathy Cores",
@@ -1213,7 +1537,8 @@
 		"modifiers": [
 			"Damage",
 			"Spawn"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Genesis Loop",
@@ -1227,7 +1552,8 @@
 			"Damage",
 			"Heal",
 			"HP"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Halcyon Seed",
@@ -1243,7 +1569,8 @@
 			"HP",
 			"Spawn",
 			"Teleporter"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Irradiant Pearl",
@@ -1255,7 +1582,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Unique"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Item Scrap, Yellow",
@@ -1267,7 +1595,8 @@
 		"oneTimeUse": true,
 		"modifiers": [
 			"Expendable"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Little Disciple",
@@ -1281,7 +1610,8 @@
 			"Damage",
 			"Movement Speed",
 			"Sprint Speed"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Mired Urn",
@@ -1295,7 +1625,8 @@
 			"Damage",
 			"AOE",
 			"Heal"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Molten Perforator",
@@ -1308,7 +1639,8 @@
 		"modifiers": [
 			"Damage",
 			"on-hit effect"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Pearl",
@@ -1321,7 +1653,8 @@
 		"modifiers": [
 			"Heal",
 			"HP"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Planula",
@@ -1334,7 +1667,8 @@
 		"modifiers": [
 			"Damage",
 			"Heal"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Queen's Gland",
@@ -1349,7 +1683,8 @@
 			"Heal",
 			"HP",
 			"Spawn"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Shatterspleen",
@@ -1365,7 +1700,8 @@
 			"HP",
 			"Bleed",
 			"Crit"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Titanic Knurl",
@@ -1379,7 +1715,8 @@
 			"Heal",
 			"HP",
 			"Health Regen"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Beads of Fealty",
@@ -1391,7 +1728,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Unique"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Brittle Crown",
@@ -1406,7 +1744,8 @@
 			"Heal",
 			"HP",
 			"on-hit effect"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Corpsebloom",
@@ -1419,7 +1758,8 @@
 		"modifiers": [
 			"Heal",
 			"HP"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Defiant Gouge",
@@ -1431,7 +1771,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Spawn"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Egocentrism",
@@ -1443,7 +1784,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Damage"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Essence of Heresy",
@@ -1456,7 +1798,8 @@
 		"modifiers": [
 			"Damage",
 			"Skills"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Eulogy Zero",
@@ -1468,7 +1811,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Unique"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Focused Convergence",
@@ -1481,7 +1825,8 @@
 		"modifiers": [
 			"AOE",
 			"Teleporter"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Gesture of the Drowned",
@@ -1493,7 +1838,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Cooldowns"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Hooks of Heresy",
@@ -1506,7 +1852,8 @@
 		"modifiers": [
 			"Damage",
 			"Skills"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Light Flux Pauldron",
@@ -1520,7 +1867,8 @@
 			"Attack Speed",
 			"Skills",
 			"Cooldowns"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Mercurial Rachis",
@@ -1533,7 +1881,8 @@
 		"modifiers": [
 			"Damage",
 			"AOE"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Purity",
@@ -1546,7 +1895,8 @@
 		"modifiers": [
 			"Skills",
 			"Cooldowns"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Shaped Glass",
@@ -1560,7 +1910,8 @@
 			"Damage",
 			"Heal",
 			"HP"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Stone Flux Pauldron",
@@ -1574,7 +1925,8 @@
 			"Heal",
 			"HP",
 			"Movement Speed"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Strides of Heresy",
@@ -1589,7 +1941,8 @@
 			"HP",
 			"Movement Speed",
 			"Skills"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Transcendence",
@@ -1604,7 +1957,8 @@
 			"HP",
 			"Health Regen",
 			"Shield"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Visions of Heresy",
@@ -1617,7 +1971,8 @@
 		"modifiers": [
 			"Damage",
 			"Skills"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Benthic Bloom",
@@ -1629,7 +1984,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Unique"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Encrusted Key",
@@ -1641,7 +1997,8 @@
 		"oneTimeUse": true,
 		"modifiers": [
 			"Expendable"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Lost Seer's Lenses",
@@ -1653,7 +2010,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Execute"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Lysate Cell",
@@ -1666,7 +2024,8 @@
 		"modifiers": [
 			"Skills",
 			"Cooldowns"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Needletick",
@@ -1678,7 +2037,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Damage"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Newly Hatched Zoea",
@@ -1690,7 +2050,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Unique"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Plasma Shrimp",
@@ -1707,7 +2068,8 @@
 			"Shield",
 			"Missiles",
 			"on-hit effect"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Pluripotent Larva",
@@ -1719,7 +2081,8 @@
 		"oneTimeUse": true,
 		"modifiers": [
 			"Expendable"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Polylute",
@@ -1732,7 +2095,8 @@
 		"modifiers": [
 			"Damage",
 			"Lightning"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Safer Spaces",
@@ -1744,7 +2108,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Damage"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Singularity Band",
@@ -1757,7 +2122,8 @@
 		"modifiers": [
 			"Damage",
 			"AOE"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Tentabauble",
@@ -1769,7 +2135,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"on-hit effect"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Voidsent Flame",
@@ -1785,7 +2152,8 @@
 			"HP",
 			"Spawn",
 			"on-hit effect"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Weeping Fungus",
@@ -1799,7 +2167,8 @@
 			"Heal",
 			"HP",
 			"Sprint Speed"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Blast Shower",
@@ -1811,7 +2180,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Damage"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Disposable Missile Launcher",
@@ -1824,7 +2194,8 @@
 		"modifiers": [
 			"Damage",
 			"Missiles"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Eccentric Vase",
@@ -1836,7 +2207,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Unique"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Executive Card",
@@ -1848,7 +2220,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Unique"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Foreign Fruit",
@@ -1861,7 +2234,8 @@
 		"modifiers": [
 			"Heal",
 			"HP"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Forgive Me Please",
@@ -1873,7 +2247,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Unique"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Fuel Array",
@@ -1885,7 +2260,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Unique"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Gnarled Woodsprite",
@@ -1898,7 +2274,8 @@
 		"modifiers": [
 			"Heal",
 			"HP"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Goobo Jr.",
@@ -1913,7 +2290,8 @@
 			"Heal",
 			"HP",
 			"Spawn"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Gorag's Opus",
@@ -1926,7 +2304,8 @@
 		"modifiers": [
 			"Attack Speed",
 			"Movement Speed"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Jade Elephant",
@@ -1938,7 +2317,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Armor"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Milky Chrysalis",
@@ -1950,7 +2330,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Movement Speed"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Molotov (6-Pack)",
@@ -1964,7 +2345,8 @@
 			"Damage",
 			"Ignite",
 			"AOE"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Ocular HUD",
@@ -1976,7 +2358,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Crit"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Preon Accumulator",
@@ -1989,7 +2372,8 @@
 		"modifiers": [
 			"Damage",
 			"AOE"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Primordial Cube",
@@ -2001,7 +2385,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"AOE"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Radar Scanner",
@@ -2013,7 +2398,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"AOE"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Recycler",
@@ -2025,7 +2411,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Unique"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Remote Caffeinator",
@@ -2039,7 +2426,8 @@
 			"Damage",
 			"Heal",
 			"HP"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Royal Capacitor",
@@ -2052,7 +2440,8 @@
 		"modifiers": [
 			"Damage",
 			"Lightning"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Sawmerang",
@@ -2065,7 +2454,8 @@
 		"modifiers": [
 			"Damage",
 			"Bleed"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Super Massive Leech",
@@ -2078,7 +2468,8 @@
 		"modifiers": [
 			"Damage",
 			"Heal"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "The Back-up",
@@ -2090,7 +2481,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Spawn"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "The Crowdfunder",
@@ -2102,7 +2494,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Damage"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Trophy Hunter's Tricorn",
@@ -2116,7 +2509,8 @@
 			"Spawn",
 			"Execute",
 			"Expendable"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Volcanic Egg",
@@ -2128,7 +2522,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Damage"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Effigy of Grief",
@@ -2142,7 +2537,8 @@
 			"AOE",
 			"Armor",
 			"Slow"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Glowing Meteorite",
@@ -2154,7 +2550,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Damage"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Helfire Tincture",
@@ -2170,7 +2567,8 @@
 			"AOE",
 			"Heal",
 			"HP"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Spinel Tonic",
@@ -2187,7 +2585,8 @@
 			"Health Regen",
 			"Armor",
 			"Attack Speed"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Her Biting Embrace",
@@ -2199,7 +2598,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Unique"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "His Reassurance",
@@ -2211,7 +2611,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Unique"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Ifrit's Distinction",
@@ -2223,7 +2624,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Unique"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "N'kuhana's Retort",
@@ -2235,7 +2637,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Unique"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Shared Design",
@@ -2247,7 +2650,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Unique"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Silence Between Two Strikes",
@@ -2259,7 +2663,8 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Lightning"
-		]
+		],
+		"colors": []
 	},
 	{
 		"name": "Spectral Circlet",
@@ -2271,6 +2676,7 @@
 		"oneTimeUse": false,
 		"modifiers": [
 			"Unique"
-		]
+		],
+		"colors": []
 	}
 ]

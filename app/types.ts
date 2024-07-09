@@ -14,7 +14,7 @@ export interface Item {
 export interface goodEntry {
 	name?: string;
 	desc?: string;
-	stack: string;
+	stack?: string;
 	imageLink?: string;
 	release: string;
 	rarity: string;
