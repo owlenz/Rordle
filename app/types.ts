@@ -8,6 +8,7 @@ export interface Item {
 	rarity: string;
 	oneTimeUse: boolean;
 	modifiers: Array<string>;
+	colors: Array<string>;
 }
 
 export interface goodEntry {
@@ -19,6 +20,7 @@ export interface goodEntry {
 	rarity: string;
 	oneTimeUse: boolean;
 	modifiers: Array<string>;
+	colors: Array<string>;
 }
 
 export type Color = "red" | "yellow" | "green"

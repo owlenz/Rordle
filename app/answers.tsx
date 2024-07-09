@@ -20,10 +20,10 @@ const Answers = ({ entry, realAnswer }: { entry: Item; realAnswer: Item }) => {
 				let color: Color;
 				// @ts-ignore
 				const answerKey = realAnswer[key].toString()
-				if (key === "modifiers") {
+				if (key === "modifiers" || key === "colors") {
 					color = compareArrays<string>(xdd[key], realAnswer.modifiers)
 				} else {
-					if (value == answerKey) {
+					if (value.toString() == answerKey) {
 						color = "green";
 					} else {
 						color = "red";
