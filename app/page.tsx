@@ -36,12 +36,9 @@ const Home = () => {
 		}
 		const getTodayItem = async () => {
 			const item = await fetch("/api").then(xdd => xdd.json())
-			console.log(item)
 			setRealAnswer(item);
 			if (ls) {
 				const storage = JSON.parse(ls)
-				console.clear()
-				console.log(item, storage)
 				if (storage.date !== item.date) {
 
 					localStorage.removeItem("userStats")
@@ -101,7 +98,6 @@ const Home = () => {
 		stats = { hp: newHP, answers: newAnswers, gameState: newGameState, date: dateToday };
 
 		localStorage.setItem("userStats", JSON.stringify(stats));
-		console.log(newAnswers);
 	};
 
 	return realAnswer ? (

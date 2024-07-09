@@ -11,7 +11,6 @@ function arraysEqual<T>(x: Array<T>, y: Array<T>): boolean {
 }
 
 export function compareArrays<T>(x: Array<T>, y: Array<T>): Color {
-	console.log(typeof x, x)
 	x.sort()
 	y.sort()
 
